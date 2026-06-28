@@ -1,0 +1,85 @@
+2026-06-28 13:14:10 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 13:14:11 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 13:14:11 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 13:14:11 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 13:14:11 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 13:14:11 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 13:14:11 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 13:14:11 [INFO] detector: Listening for elevator events...
+2026-06-28 13:14:11 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 13:14:59 [INFO] detector: Shutting down (signal 15)
+2026-06-28 13:15:00 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 13:15:01 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 13:15:01 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 13:15:01 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 13:15:01 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 13:15:01 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 13:15:01 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 13:15:01 [INFO] detector: Listening for elevator events...
+2026-06-28 13:15:01 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 13:17:01 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 13:31:17 [INFO] detector: Shutting down (signal 15)
+2026-06-28 13:31:18 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 13:31:19 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 13:31:19 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 13:31:19 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 13:31:19 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 13:31:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 13:31:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 13:31:19 [INFO] detector: Listening for elevator events...
+2026-06-28 13:31:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 13:33:19 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 13:35:03 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
+2026-06-28 13:35:03 [INFO] detector: SHABBAT_OVERRIDE force_off -> auto ; SHABBAT_ACTIVE := False
+2026-06-28 13:43:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 13:44:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 13:45:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 13:53:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 13:53:29 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 13:59:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:07:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 453s — resetting cycle (was in _Phase.LEG_ONE)
+2026-06-28 14:18:36 [WARNING] shabbat_detector.firebase_client: Elevator stream error: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer')) — reconnecting in 10s
+2026-06-28 14:18:46 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 14:24:16 [INFO] detector: Shutting down (signal 15)
+2026-06-28 14:24:17 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 14:24:17 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 14:24:17 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 14:24:17 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 14:24:17 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 14:24:17 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 14:24:17 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 14:24:17 [INFO] detector: Listening for elevator events...
+2026-06-28 14:24:17 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 14:24:47 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 14:27:44 [INFO] detector: Shutting down (signal 15)
+2026-06-28 14:27:45 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 14:27:46 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 14:27:46 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 14:27:46 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 14:27:46 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 14:27:46 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 14:27:46 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 14:27:46 [INFO] detector: Listening for elevator events...
+2026-06-28 14:27:46 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 14:28:16 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 14:29:59 [INFO] detector: Shutting down (signal 15)
+2026-06-28 14:30:14 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 14:30:14 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 14:30:14 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 14:30:14 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 14:30:14 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 14:30:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 14:30:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 14:30:14 [INFO] detector: Listening for elevator events...
+2026-06-28 14:30:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-06-28 14:30:45 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 14:48:12 [INFO] detector: Shutting down (signal 15)
+2026-06-28 14:48:13 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-06-28 14:48:14 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-06-28 14:48:14 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-06-28 14:48:14 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 14:48:14 [INFO] detector: AutoLearner restored: 100 cycle(s)
+2026-06-28 14:48:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-06-28 14:48:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 14:48:14 [INFO] detector: Listening for elevator events...
+2026-06-28 14:48:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
