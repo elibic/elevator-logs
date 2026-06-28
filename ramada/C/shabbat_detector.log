@@ -1,0 +1,30 @@
+2026-06-28 13:54:01 [INFO] detector: Detector starting for elevator C (test_mode=False)
+2026-06-28 13:54:02 [INFO] detector: Loaded config: TOP=12  BOTTOM=-3 TIME_PER_FLOOR=26
+2026-06-28 13:54:02 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_C.json
+2026-06-28 13:54:02 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 13:54:02 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-06-28 13:54:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-06-28 13:54:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 13:54:02 [INFO] detector: Listening for elevator events...
+2026-06-28 13:54:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-06-28 13:56:32 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 14:20:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:29:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:30:29 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:36:17 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:38:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:38:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:40:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-06-28 14:51:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 560s — resetting cycle (was in _Phase.LEG_ONE)
+2026-06-28 14:52:46 [INFO] detector: Shutting down (signal 15)
+2026-06-28 14:52:47 [INFO] detector: Detector starting for elevator C (test_mode=False)
+2026-06-28 14:52:48 [INFO] detector: Loaded config: TOP=12  BOTTOM=-3 TIME_PER_FLOOR=26
+2026-06-28 14:52:48 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_C.json
+2026-06-28 14:52:48 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-06-28 14:52:48 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-06-28 14:52:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-06-28 14:52:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-06-28 14:52:48 [INFO] detector: Listening for elevator events...
+2026-06-28 14:52:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-06-28 14:55:18 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-06-28 15:03:15 [INFO] detector: Shutting down (signal 15)
