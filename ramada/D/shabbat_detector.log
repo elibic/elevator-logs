@@ -1,26 +1,1267 @@
-2026-06-28 14:01:37 [INFO] detector: Detector starting for elevator D (test_mode=False)
-2026-06-28 14:01:38 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=26
-2026-06-28 14:01:38 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_D.json
-2026-06-28 14:01:38 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
-2026-06-28 14:01:38 [INFO] detector: AutoLearner restored: 1177 cycle(s)
-2026-06-28 14:01:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
-2026-06-28 14:01:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
-2026-06-28 14:01:38 [INFO] detector: Listening for elevator events...
-2026-06-28 14:01:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
-2026-06-28 14:02:38 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-06-28 14:42:38 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
-2026-06-28 14:42:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
-2026-06-28 14:48:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
-2026-06-28 14:49:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
-2026-06-28 14:52:56 [INFO] detector: Shutting down (signal 15)
-2026-06-28 14:52:57 [INFO] detector: Detector starting for elevator D (test_mode=False)
-2026-06-28 14:52:58 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=26
-2026-06-28 14:52:58 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_D.json
-2026-06-28 14:52:58 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
-2026-06-28 14:52:58 [INFO] detector: AutoLearner restored: 1177 cycle(s)
-2026-06-28 14:52:58 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
-2026-06-28 14:52:58 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
-2026-06-28 14:52:58 [INFO] detector: Listening for elevator events...
-2026-06-28 14:52:58 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
-2026-06-28 14:53:58 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-06-28 14:54:45 [INFO] detector: Shutting down (signal 15)
+2026-07-01 07:00:07 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 07:00:07 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 07:01:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 07:17:23 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 449s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 07:56:29 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:23:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 2974s, up_stops=['8', '4', '-1', '0', '-1', '3', '3', '-1', '0', '9', '6', '3', '6', '-1', '8', '10', '-1', '6', '-1', '8', '5', '4', '3', '-2', '2', '1', '2', '5', '10', '-1', '0', '6', '-1', '6', '-1', '0', '-1', '-2', '8', '0', '-2', '0', '9', '10', '5', '-1', '11'], down_stops=['0', '8', '6', '4', '-2', '10', '-2', '4', '-2', '0', '2', '0', '5', '0', '-1', '0', '2', '0']
+2026-07-01 08:23:37 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 08:23:37 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['1', '10', '11', '2', '3', '4', '5', '6', '8', '9']; עצירות לא חוקיות בירידה: ['5']; קפיצות-אחורה (עלייה 23, ירידה 8); חזרות על קומות (עלייה 34, ירידה 9); משך חריג 2974.0s (3.81× הצפוי 780.0s); 13 חריגות טיימינג
+2026-07-01 08:24:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 08:40:13 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:43:11 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:44:02 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:46:01 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:49:20 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:58:54 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 08:59:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 2152s, up_stops=['-2', '3', '7', '-2', '0', '3', '0', '1', '-2', '-1', '5', '6', '2', '1', '-2', '-1', '6', '5', '-1', '-2', '-1', '-2', '-1', '5', '6', '10', '4', '-2', '9', '7', '-1', '-2', '4', '-1', '-1', '-1', '3', '0', '-1', '7', '-1', '9', '-1', '-2', '5', '-2', '-1', '-1', '-2', '8', '-2', '8', '5', '-2', '10', '6', '0', '-2', '7', '10', '0', '-1', '-2', '-1'], down_stops=['0', '-1']
+2026-07-01 08:59:47 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 08:59:47 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 08:59:47 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 08:59:47 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['1', '10', '2', '3', '4', '5', '6', '7', '8', '9']; כיסוי קומות חלקי (עלייה 100%, ירידה 25%); קפיצות-אחורה (עלייה 32, ירידה 0); חזרות על קומות (עלייה 51, ירידה 0); משך חריג 2152.0s (2.76× הצפוי 780.0s); 13 חריגות טיימינג
+2026-07-01 08:59:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 09:00:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 09:04:37 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:12:36 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:19:23 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:24:28 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:31:31 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:38:06 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:40:57 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:48:32 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:51:28 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:52:08 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 09:59:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 3612s, up_stops=['-1', '0', '2', '5', '-1', '-2', '-1', '-2', '-1', '3', '5', '0', '-1', '6', '10', '-1', '9', '11', '9', '7', '-1', '8', '-1', '8', '-1', '-2', '7', '4', '-1', '-2', '-1', '9', '5', '4', '-1', '-2', '-1', '10', '-1', '-2', '9', '11', '-1', '-2', '-1', '10', '-1', '-2', '3', '1', '-1', '7', '1', '-1', '-1', '10', '-1', '10', '6', '1', '0', '-2', '5', '4', '3', '-1', '-2', '2', '8', '-2', '-1', '0', '3', '8', '10', '0', '-2', '6', '8', '7', '4', '-1', '-2', '9', '6', '-1', '-2', '-2', '-1', '2', '9', '2', '-1', '-2', '-2', '10', '0', '-2', '8', '-1', '2', '-2', '6', '-2', '4', '7', '10', '11', '2', '-1', '0', '8', '10'], down_stops=['10', '-1', '-2']
+2026-07-01 09:59:41 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 09:59:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 09:59:41 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 09:59:41 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['1', '10', '11', '2', '3', '4', '5', '6', '7', '8', '9']; כיסוי קומות חלקי (עלייה 100%, ירידה 38%); קפיצות-אחורה (עלייה 58, ירידה 0); חזרות על קומות (עלייה 99, ירידה 0); משך חריג 3612.0s (4.63× הצפוי 780.0s); 13 חריגות טיימינג
+2026-07-01 09:59:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:01:12 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:09:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 598s, up_stops=['-1', '9'], down_stops=['3', '0', '-1', '7', '0', '-2', '-1', '5', '7', '11', '0', '-1', '7', '5', '3', '0', '10']
+2026-07-01 10:09:39 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 10:09:39 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 10:09:39 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 10:09:39 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['9']; עצירות לא חוקיות בירידה: ['11', '3', '5', '7']; כיסוי קומות חלקי (עלייה 33%, ירידה 50%); קפיצות-אחורה (עלייה 0, ירידה 7); חזרות על קומות (עלייה 0, ירידה 9); 9 חריגות טיימינג
+2026-07-01 10:09:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:11:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:24:57 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 10:28:35 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 10:39:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1775s, up_stops=['-2', '-1', '0', '2', '7', '9', '-1', '-2', '9', '7', '-1', '10', '-2', '6', '-1', '-2', '-1', '5', '7', '8', '-2', '-1', '2', '5', '8', '9', '-2', '-1', '4', '4', '11', '-2', '-1', '8', '4', '3', '0', '5', '-1', '4', '6'], down_stops=['5', '2', '6', '3', '-1', '-2', '6', '9', '-1', '3', '11', '9', '-2', '-1', '4', '9', '-1', '7', '-2', '-1', '3', '5', '7', '-1', '4', '2', '0', '-1']
+2026-07-01 10:39:14 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 10:39:14 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 10:39:15 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 10:39:15 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '11', '2', '3', '4', '5', '6', '7', '8', '9']; עצירות לא חוקיות בירידה: ['11', '3', '5', '7', '9']; כיסוי קומות חלקי (עלייה 100%, ירידה 75%); קפיצות-אחורה (עלייה 14, ירידה 14); חזרות על קומות (עלייה 28, ירידה 17); משך חריג 1775.0s (2.28× הצפוי 780.0s); 12 חריגות טיימינג
+2026-07-01 10:39:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:41:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 10:42:40 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 10:46:33 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 10:47:15 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 10:59:46 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:06:15 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:06:50 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:07:30 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:19:50 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:30:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 3052s, up_stops=['-2', '-1', '4', '1', '0', '-2', '-2', '-1', '4', '9', '8', '7', '-1', '3', '2', '-1', '-1', '-2', '-1', '5', '6', '10', '4', '-1', '-2', '-1', '10', '7', '-1', '7', '-1', '4', '8', '-1', '7', '-1', '-2', '6', '-1', '6', '0', '-1', '-2', '6', '-1', '4', '-1', '11', '-2', '-1', '10', '9', '0', '-1', '4', '5', '11', '7', '4', '3', '-1', '-2', '5', '-1', '-2', '-1', '2', '11', '-1', '3', '1', '-1', '9', '-1', '6', '-1', '0', '3', '0', '-1', '8', '-1', '4', '0'], down_stops=['-1']
+2026-07-01 11:30:31 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 11:30:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 11:30:32 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 11:30:32 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['1', '10', '11', '2', '3', '4', '5', '6', '7', '8', '9']; כיסוי קומות חלקי (עלייה 100%, ירידה 12%); קפיצות-אחורה (עלייה 44, ירידה 0); חזרות על קומות (עלייה 70, ירידה 0); משך חריג 3052.0s (3.91× הצפוי 780.0s); 14 חריגות טיימינג
+2026-07-01 11:30:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 11:31:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 11:35:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 344s, up_stops=['-1', '-2', '-1'], down_stops=['9', '0']
+2026-07-01 11:35:51 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 11:35:51 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 11:35:51 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 11:35:51 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בירידה: ['9']; כיסוי קומות חלקי (עלייה 67%, ירידה 12%); קפיצות-אחורה (עלייה 1, ירידה 0); משך חריג 344.0s (0.44× הצפוי 780.0s); 3 חריגות טיימינג
+2026-07-01 11:35:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 11:36:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 11:42:36 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 11:53:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 572s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-01 12:02:53 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 12:02:53 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 12:04:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:05:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 12:07:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:10:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:13:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:19:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:22:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:28:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:31:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:34:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 12:39:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 405s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 13:04:26 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:06:06 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:08:01 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:09:11 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:12:57 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:13:37 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:15:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1291s, up_stops=['-1', '-2', '-1', '0', '10', '-1', '-2', '-1', '-1', '-1', '-1', '8'], down_stops=['10', '3', '4']
+2026-07-01 13:15:47 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 13:15:47 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '8']; עצירות לא חוקיות בירידה: ['3']; כיסוי קומות חלקי (עלייה 100%, ירידה 25%); קפיצות-אחורה (עלייה 3, ירידה 1); חזרות על קומות (עלייה 7, ירידה 0); משך חריג 1291.0s (1.66× הצפוי 780.0s); 7 חריגות טיימינג
+2026-07-01 13:17:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 13:25:02 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:31:05 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:31:43 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:38:47 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-01 13:43:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1627s, up_stops=['7', '5', '-1', '-1', '7', '8', '5', '-1', '-2', '-1', '-2', '-1', '10', '-1', '-2', '-2', '-1', '-2', '-1'], down_stops=['11', '10', '5']
+2026-07-01 13:43:24 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 13:43:24 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 13:43:24 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-01 13:43:24 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '5', '7', '8']; עצירות לא חוקיות בירידה: ['11', '5']; כיסוי קומות חלקי (עלייה 67%, ירידה 12%); קפיצות-אחורה (עלייה 9, ירידה 0); חזרות על קומות (עלייה 13, ירידה 0); משך חריג 1627.0s (2.09× הצפוי 780.0s); 7 חריגות טיימינג
+2026-07-01 13:43:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 13:45:55 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 13:55:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 362s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-01 13:55:56 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-01 13:55:56 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-01 13:56:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-01 13:58:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:09:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:16:29 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:23:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:31:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:40:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:44:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:46:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:48:45 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:52:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 14:56:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:00:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:05:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:12:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:21:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:25:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:30:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:35:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 325s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 15:43:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:50:57 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 15:55:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:05:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 347s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 16:17:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:18:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:24:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 305s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 16:36:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:36:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:48:19 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 457s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 16:50:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 16:57:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 403s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 17:00:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:09:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:19:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 376s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 17:21:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:25:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:26:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:32:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:32:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:48:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 17:59:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:00:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:02:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:09:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 319s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 18:15:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:21:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:31:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 384s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 18:51:14 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 827s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 18:52:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 18:55:01 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 19:01:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 19:05:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 19:10:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 19:24:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 446s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 19:44:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 19:59:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 20:08:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 312s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 20:17:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 533s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 20:22:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to TOP without reaching BOTTOM
+2026-07-01 20:41:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1260s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 20:55:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 571s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-01 20:59:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-01 21:14:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 570s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 22:00:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1909s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-01 22:23:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 465s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-02 00:27:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1385s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 06:20:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 14279s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 07:18:26 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1000s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 08:47:33 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 401s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-02 09:28:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 09:32:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 09:34:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 10:00:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1533s, up_stops=['-2', '3', '-2', '-1', '4'], down_stops=['1', '-1', '5', '2', '0', '-1', '2', '4', '11', '-1', '3', '-2', '-1', '-2', '5', '5', '3']
+2026-07-02 10:00:23 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-02 10:00:23 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['3', '4']; עצירות לא חוקיות בירידה: ['1', '11', '3', '5']; כיסוי קומות חלקי (עלייה 67%, ירידה 62%); קפיצות-אחורה (עלייה 1, ירידה 7); חזרות על קומות (עלייה 1, ירידה 8); משך חריג 1533.0s (1.97× הצפוי 780.0s); 9 חריגות טיימינג
+2026-07-02 10:00:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 10:15:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 406s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-02 10:21:27 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-02 10:21:27 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-02 10:22:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 10:24:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 10:48:11 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1418s, up_stops=['-1', '2', '-1'], down_stops=['5', '0', '4', '8', '-1', '4', '-2', '-1', '4', '7', '0', '-1']
+2026-07-02 10:48:11 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-02 10:48:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['2']; עצירות לא חוקיות בירידה: ['5', '7']; כיסוי קומות חלקי (עלייה 33%, ירידה 62%); קפיצות-אחורה (עלייה 1, ירידה 6); חזרות על קומות (עלייה 1, ירידה 5); משך חריג 1418.0s (1.82× הצפוי 780.0s); 6 חריגות טיימינג
+2026-07-02 10:49:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 10:51:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 345s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 10:56:09 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-02 10:56:09 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-02 10:57:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 10:58:32 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 11:07:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 351s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 11:17:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 11:25:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 518s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 11:38:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 709s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 11:50:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 434s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 12:24:17 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 12:31:23 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 306s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 12:44:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 12:59:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 13:12:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 599s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 13:19:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 13:26:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 348s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 13:49:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 13:53:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 13:57:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:02:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:05:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:17:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:23:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:30:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:40:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:49:31 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 440s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 14:52:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 14:57:57 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:02:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:08:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:09:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:13:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:14:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:19:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:23:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:27:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 312s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 15:33:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 321s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 15:40:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 15:47:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 471s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 16:00:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:03:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 154s, up_stops=['-1', '5'], down_stops=['7', '-1']
+2026-07-02 16:03:20 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-02 16:03:20 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['5']; עצירות לא חוקיות בירידה: ['7']; כיסוי קומות חלקי (עלייה 33%, ירידה 12%); משך חריג 154.0s (0.2× הצפוי 780.0s); 3 חריגות טיימינג
+2026-07-02 16:04:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 16:16:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:16:35 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-02 16:16:35 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-02 16:18:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 16:37:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 858s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-02 16:46:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:46:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:53:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:54:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:58:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 16:59:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:04:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:21:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1098s, up_stops=['-1', '8', '7', '-1', '9'], down_stops=['-1', '7', '-1', '0', '9', '-1']
+2026-07-02 17:21:37 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-02 17:21:37 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['7', '8', '9']; עצירות לא חוקיות בירידה: ['7', '9']; כיסוי קומות חלקי (עלייה 33%, ירידה 25%); קפיצות-אחורה (עלייה 2, ירידה 3); משך חריג 1098.0s (1.41× הצפוי 780.0s); 5 חריגות טיימינג
+2026-07-02 17:23:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 17:26:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:26:43 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-02 17:26:43 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-02 17:28:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:28:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-02 17:39:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:45:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 330s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 17:53:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 17:55:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 18:04:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 18:08:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 18:19:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 381s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 19:01:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 400s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-02 19:29:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 358s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 19:54:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 20:00:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 20:11:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 397s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 21:19:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 21:22:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 21:30:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-02 21:53:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 356s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-02 23:11:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 697s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 04:52:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5069s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-03 07:26:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1657s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 08:18:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 08:23:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 317s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 08:29:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 08:34:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 08:37:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 08:51:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 08:57:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:08:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 346s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 09:21:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:23:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:27:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:47:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:56:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 09:58:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:05:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 390s, up_stops=['10'], down_stops=['8', '-1']
+2026-07-03 10:05:24 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-03 10:05:24 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 25%); משך חריג 390.0s (0.5× הצפוי 780.0s); 3 חריגות טיימינג
+2026-07-03 10:05:54 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 10:08:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:08:36 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 10:08:36 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 10:09:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 10:09:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:12:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:13:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:18:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:30:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 680s, up_stops=['7', '3', '-1', '10', '-1', '2'], down_stops=['-1']
+2026-07-03 10:30:38 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-03 10:30:38 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '2', '3', '7']; כיסוי קומות חלקי (עלייה 33%, ירידה 12%); קפיצות-אחורה (עלייה 3, ירידה 0); 5 חריגות טיימינג
+2026-07-03 10:32:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 10:35:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:35:09 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 10:35:09 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 10:35:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 10:38:18 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:48:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 10:52:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 371s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 10:59:42 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-03 11:11:46 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-03 11:25:07 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-03 11:34:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 569s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-03 11:49:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 11:56:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 12:05:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 415s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 12:08:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 12:14:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 349s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 12:22:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 12:26:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 12:39:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 703s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 12:42:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 12:57:14 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 749s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 13:04:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 13:29:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1212s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 13:57:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 337s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-03 14:08:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:09:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:14:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 302s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 14:18:18 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 191s, up_stops=['-1'], down_stops=['-1', '7', '-1']
+2026-07-03 14:18:18 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-03 14:18:18 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בירידה: ['7']; כיסוי קומות חלקי (עלייה 33%, ירידה 12%); קפיצות-אחורה (עלייה 0, ירידה 1); משך חריג 191.0s (0.24× הצפוי 780.0s); 2 חריגות טיימינג
+2026-07-03 14:19:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:19:10 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 14:19:10 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 14:19:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 14:20:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 14:23:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:34:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
+2026-07-03 14:39:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:43:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:48:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-03 14:50:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:57:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
+2026-07-03 14:58:24 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-03 14:58:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 14:59:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-03 15:07:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 337s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 15:20:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:24:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:27:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:28:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:31:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:34:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:36:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:42:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 357s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 15:47:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:51:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 15:55:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:02:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 423s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 16:15:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:19:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:20:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:26:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:31:18 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:39:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 465s, up_stops=['2'], down_stops=['-1', '9', '7', '-1', '2', '-1']
+2026-07-03 16:39:23 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-03 16:39:23 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['2']; עצירות לא חוקיות בירידה: ['7', '9']; כיסוי קומות חלקי (עלייה 0%, ירידה 25%); קפיצות-אחורה (עלייה 0, ירידה 2); משך חריג 465.0s (0.6× הצפוי 780.0s); 4 חריגות טיימינג
+2026-07-03 16:41:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 16:44:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:44:46 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 16:44:46 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 16:46:46 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 16:48:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:50:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 16:58:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 427s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 17:01:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:05:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:11:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:14:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:23:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:27:53 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 17:49:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 18:00:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 566s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 18:10:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 462s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-03 18:13:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-03 18:30:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 409s — resetting cycle (was in _Phase.LEG_TWO)
+2026-07-03 19:01:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 19:01:55 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-03 19:01:55 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 88%, נסיעה רצופה (0 קפיצות-אחורה), משך 473.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-03 19:01:56 [INFO] detector: AutoLearner: suggestion from 1178 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:01:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-03 19:03:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:09:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 19:09:49 [INFO] detector: AutoLearner: suggestion from 1179 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:09:50 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:11:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:17:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 19:17:41 [INFO] detector: AutoLearner: suggestion from 1180 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:17:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:19:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:25:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 19:25:35 [INFO] detector: AutoLearner: suggestion from 1181 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:25:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:26:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:33:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 19:33:31 [INFO] detector: AutoLearner: suggestion from 1182 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:33:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:34:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:41:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 19:41:21 [INFO] detector: AutoLearner: suggestion from 1183 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:41:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:41:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:49:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 19:49:16 [INFO] detector: AutoLearner: suggestion from 1184 cycles (consistency=0.00, cv=0.088)
+2026-07-03 19:49:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:49:46 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:57:10 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 19:57:10 [INFO] detector: AutoLearner: suggestion from 1185 cycles (consistency=0.00, cv=0.087)
+2026-07-03 19:57:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 19:57:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:05:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 20:05:04 [INFO] detector: AutoLearner: suggestion from 1186 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:05:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:05:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:12:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 20:12:56 [INFO] detector: AutoLearner: suggestion from 1187 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:12:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:13:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:20:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 20:20:51 [INFO] detector: AutoLearner: suggestion from 1188 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:20:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:21:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:28:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 20:28:47 [INFO] detector: AutoLearner: suggestion from 1189 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:28:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:29:18 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:36:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 20:36:41 [INFO] detector: AutoLearner: suggestion from 1190 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:36:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:37:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:44:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 20:44:34 [INFO] detector: AutoLearner: suggestion from 1191 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:44:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:46:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:52:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 20:52:29 [INFO] detector: AutoLearner: suggestion from 1192 cycles (consistency=0.00, cv=0.087)
+2026-07-03 20:52:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 20:53:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:00:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '5', '2', '0', '-1', '-2']
+2026-07-03 21:00:21 [INFO] detector: AutoLearner: suggestion from 1193 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:00:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:00:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:03:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
+2026-07-03 21:03:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
+2026-07-03 21:04:00 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-03 21:08:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 21:08:16 [INFO] detector: AutoLearner: suggestion from 1194 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:08:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:09:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:16:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 21:16:10 [INFO] detector: AutoLearner: suggestion from 1195 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:16:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:18:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:24:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 21:24:06 [INFO] detector: AutoLearner: suggestion from 1196 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:24:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:25:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:31:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 21:31:59 [INFO] detector: AutoLearner: suggestion from 1197 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:32:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:33:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:40:10 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 491s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 21:40:10 [INFO] detector: AutoLearner: suggestion from 1198 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:40:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:42:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:48:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 21:48:01 [INFO] detector: AutoLearner: suggestion from 1199 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:48:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:49:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:55:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 21:55:58 [INFO] detector: AutoLearner: suggestion from 1200 cycles (consistency=0.00, cv=0.087)
+2026-07-03 21:55:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 21:57:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:03:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 22:03:52 [INFO] detector: AutoLearner: suggestion from 1201 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:03:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:04:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:11:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 22:11:46 [INFO] detector: AutoLearner: suggestion from 1202 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:11:46 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:12:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:19:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 22:19:40 [INFO] detector: AutoLearner: suggestion from 1203 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:19:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:21:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:27:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 22:27:35 [INFO] detector: AutoLearner: suggestion from 1204 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:27:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:29:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:35:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 22:35:27 [INFO] detector: AutoLearner: suggestion from 1205 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:35:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:36:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:43:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 22:44:50 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-03 22:44:50 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-03 22:44:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:45:48 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-03 22:45:48 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-03 22:45:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:46:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-03 22:51:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '3', '0', '-1', '-2']
+2026-07-03 22:51:14 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 22:51:14 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 22:51:15 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-03 22:51:15 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — עצירות לא חוקיות בירידה: ['3', '7']; כיסוי קומות חלקי (עלייה 100%, ירידה 75%)
+2026-07-03 22:51:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:52:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:59:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 22:59:07 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-03 22:59:07 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-03 22:59:08 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-03 22:59:08 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 88%, נסיעה רצופה (0 קפיצות-אחורה), משך 473.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-03 22:59:08 [INFO] detector: AutoLearner: suggestion from 1206 cycles (consistency=0.00, cv=0.087)
+2026-07-03 22:59:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 22:59:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-03 23:00:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:07:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 23:07:02 [INFO] detector: AutoLearner: suggestion from 1207 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:07:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:08:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:14:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 23:14:57 [INFO] detector: AutoLearner: suggestion from 1208 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:14:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:16:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:22:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-03 23:22:48 [INFO] detector: AutoLearner: suggestion from 1209 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:22:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:24:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:30:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 23:30:42 [INFO] detector: AutoLearner: suggestion from 1210 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:30:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:32:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:38:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 23:38:37 [INFO] detector: AutoLearner: suggestion from 1211 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:38:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:39:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:46:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-03 23:46:29 [INFO] detector: AutoLearner: suggestion from 1212 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:46:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:46:59 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:54:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-03 23:54:24 [INFO] detector: AutoLearner: suggestion from 1213 cycles (consistency=0.00, cv=0.087)
+2026-07-03 23:54:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-03 23:56:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:02:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 00:02:17 [INFO] detector: AutoLearner: suggestion from 1214 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:02:17 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:04:17 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:09:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to TOP without reaching BOTTOM
+2026-07-04 00:17:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 00:17:13 [INFO] detector: AutoLearner: suggestion from 1215 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:17:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:18:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:25:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 00:25:05 [INFO] detector: AutoLearner: suggestion from 1216 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:25:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:26:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:33:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 00:33:02 [INFO] detector: AutoLearner: suggestion from 1217 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:33:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:33:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:40:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 00:40:55 [INFO] detector: AutoLearner: suggestion from 1218 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:40:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:41:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:48:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 00:48:50 [INFO] detector: AutoLearner: suggestion from 1219 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:48:50 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:49:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:56:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 00:56:44 [INFO] detector: AutoLearner: suggestion from 1220 cycles (consistency=0.00, cv=0.087)
+2026-07-04 00:56:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 00:57:14 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:04:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:04:40 [INFO] detector: AutoLearner: suggestion from 1221 cycles (consistency=0.00, cv=0.087)
+2026-07-04 01:04:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:05:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:12:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:12:33 [INFO] detector: AutoLearner: suggestion from 1222 cycles (consistency=0.00, cv=0.087)
+2026-07-04 01:12:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:13:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:20:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:20:29 [INFO] detector: AutoLearner: suggestion from 1223 cycles (consistency=0.00, cv=0.087)
+2026-07-04 01:20:30 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:22:59 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:28:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:28:22 [INFO] detector: AutoLearner: suggestion from 1224 cycles (consistency=0.00, cv=0.087)
+2026-07-04 01:28:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:30:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:36:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:37:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:38:09 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 01:38:09 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 01:40:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:44:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 01:44:07 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.SHABBAT
+2026-07-04 01:44:07 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> SHABBAT | סיבה: מחזור תקין — חזרה למצב שבת
+2026-07-04 01:44:07 [INFO] detector: AutoLearner: suggestion from 1225 cycles (consistency=0.00, cv=0.086)
+2026-07-04 01:44:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:44:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:52:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 01:52:01 [INFO] detector: AutoLearner: suggestion from 1226 cycles (consistency=0.00, cv=0.086)
+2026-07-04 01:52:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:53:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 01:59:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 01:59:55 [INFO] detector: AutoLearner: suggestion from 1227 cycles (consistency=0.00, cv=0.086)
+2026-07-04 01:59:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:00:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:07:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-2']
+2026-07-04 02:07:50 [INFO] detector: AutoLearner: suggestion from 1228 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:07:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:09:50 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:15:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 02:16:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:18:10 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 02:18:10 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 02:20:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:23:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 02:23:37 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.SHABBAT
+2026-07-04 02:23:37 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> SHABBAT | סיבה: מחזור תקין — חזרה למצב שבת
+2026-07-04 02:23:38 [INFO] detector: AutoLearner: suggestion from 1229 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:23:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:24:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:31:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 02:31:33 [INFO] detector: AutoLearner: suggestion from 1230 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:31:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:32:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:39:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 02:39:27 [INFO] detector: AutoLearner: suggestion from 1231 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:39:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:39:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:47:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 02:47:19 [INFO] detector: AutoLearner: suggestion from 1232 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:47:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:49:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:53:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
+2026-07-04 02:53:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-04 02:53:49 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-04 02:55:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 02:55:13 [INFO] detector: AutoLearner: suggestion from 1233 cycles (consistency=0.00, cv=0.090)
+2026-07-04 02:55:14 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 02:57:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:03:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 03:03:09 [INFO] detector: AutoLearner: suggestion from 1234 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:03:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:04:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:11:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 03:11:02 [INFO] detector: AutoLearner: suggestion from 1235 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:11:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:12:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:18:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 03:18:57 [INFO] detector: AutoLearner: suggestion from 1236 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:18:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:19:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:26:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 03:26:53 [INFO] detector: AutoLearner: suggestion from 1237 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:26:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:27:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:34:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 03:34:47 [INFO] detector: AutoLearner: suggestion from 1238 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:34:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:36:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:42:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 03:42:41 [INFO] detector: AutoLearner: suggestion from 1239 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:42:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:44:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:50:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 03:50:35 [INFO] detector: AutoLearner: suggestion from 1240 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:50:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:52:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:58:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 03:58:27 [INFO] detector: AutoLearner: suggestion from 1241 cycles (consistency=0.00, cv=0.090)
+2026-07-04 03:58:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 03:59:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:06:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 04:06:22 [INFO] detector: AutoLearner: suggestion from 1242 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:06:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:07:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:08:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-04 04:09:58 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
+2026-07-04 04:10:28 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-04 04:12:42 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-04 04:14:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 04:14:15 [INFO] detector: AutoLearner: suggestion from 1243 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:14:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:16:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:22:10 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 04:22:10 [INFO] detector: AutoLearner: suggestion from 1244 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:22:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:22:28 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-04 04:23:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:30:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 04:30:02 [INFO] detector: AutoLearner: suggestion from 1245 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:30:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:30:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:34:49 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
+2026-07-04 04:34:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/D.json
+2026-07-04 04:35:00 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-04 04:35:22 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-04 04:37:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 04:37:57 [INFO] detector: AutoLearner: suggestion from 1246 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:37:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:39:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:45:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 04:45:51 [INFO] detector: AutoLearner: suggestion from 1247 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:45:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:47:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:53:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 04:53:47 [INFO] detector: AutoLearner: suggestion from 1248 cycles (consistency=0.00, cv=0.090)
+2026-07-04 04:53:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 04:55:18 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:01:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 05:01:43 [INFO] detector: AutoLearner: suggestion from 1249 cycles (consistency=0.00, cv=0.090)
+2026-07-04 05:01:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:02:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:09:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 05:09:33 [INFO] detector: AutoLearner: suggestion from 1250 cycles (consistency=0.00, cv=0.090)
+2026-07-04 05:09:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:10:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:17:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 05:17:27 [INFO] detector: AutoLearner: suggestion from 1251 cycles (consistency=0.00, cv=0.090)
+2026-07-04 05:17:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:18:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:25:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 05:25:23 [INFO] detector: AutoLearner: suggestion from 1252 cycles (consistency=0.00, cv=0.090)
+2026-07-04 05:25:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:25:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:33:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 05:33:15 [INFO] detector: AutoLearner: suggestion from 1253 cycles (consistency=0.00, cv=0.089)
+2026-07-04 05:33:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:35:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:35:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/D.json
+2026-07-04 05:41:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 05:41:10 [INFO] detector: AutoLearner: suggestion from 1254 cycles (consistency=0.00, cv=0.089)
+2026-07-04 05:41:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:42:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:49:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 05:49:02 [INFO] detector: AutoLearner: suggestion from 1255 cycles (consistency=0.00, cv=0.089)
+2026-07-04 05:49:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:50:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:56:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 05:56:55 [INFO] detector: AutoLearner: suggestion from 1256 cycles (consistency=0.00, cv=0.089)
+2026-07-04 05:56:55 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 05:57:55 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:04:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 06:04:48 [INFO] detector: AutoLearner: suggestion from 1257 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:04:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:05:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:12:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 06:12:42 [INFO] detector: AutoLearner: suggestion from 1258 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:12:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:13:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:20:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 06:20:36 [INFO] detector: AutoLearner: suggestion from 1259 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:20:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:22:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:28:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 06:28:29 [INFO] detector: AutoLearner: suggestion from 1260 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:28:30 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:30:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:36:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 06:36:25 [INFO] detector: AutoLearner: suggestion from 1261 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:36:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:37:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:44:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 06:44:19 [INFO] detector: AutoLearner: suggestion from 1262 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:44:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:45:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:52:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 06:52:13 [INFO] detector: AutoLearner: suggestion from 1263 cycles (consistency=0.00, cv=0.089)
+2026-07-04 06:52:14 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 06:54:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:00:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 07:00:08 [INFO] detector: AutoLearner: suggestion from 1264 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:00:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:02:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:08:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 07:08:03 [INFO] detector: AutoLearner: suggestion from 1265 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:08:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:09:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:10:25 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 07:10:25 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 07:12:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:15:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '3', '0', '-1', '-2']
+2026-07-04 07:15:55 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 07:15:55 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-04 07:18:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 07:23:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 07:23:48 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 07:23:48 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 07:23:48 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-04 07:23:48 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 100%, נסיעה רצופה (0 קפיצות-אחורה), משך 474.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-04 07:23:48 [INFO] detector: AutoLearner: suggestion from 1266 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:23:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:23:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 07:24:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:31:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 07:31:44 [INFO] detector: AutoLearner: suggestion from 1267 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:31:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:33:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:34:09 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 07:34:09 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 07:35:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:39:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '5', '3', '0', '-1', '-2']
+2026-07-04 07:39:36 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 07:39:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-04 07:40:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 07:47:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 07:47:33 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 07:47:33 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 07:47:33 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-04 07:47:33 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 100%, נסיעה רצופה (0 קפיצות-אחורה), משך 475.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-04 07:47:33 [INFO] detector: AutoLearner: suggestion from 1268 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:47:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:47:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 07:48:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:55:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 07:55:27 [INFO] detector: AutoLearner: suggestion from 1269 cycles (consistency=0.00, cv=0.089)
+2026-07-04 07:55:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 07:56:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:03:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 08:03:20 [INFO] detector: AutoLearner: suggestion from 1270 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:03:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:04:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:11:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 08:11:14 [INFO] detector: AutoLearner: suggestion from 1271 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:11:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:11:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:19:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 08:19:10 [INFO] detector: AutoLearner: suggestion from 1272 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:19:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:19:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:27:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 08:27:06 [INFO] detector: AutoLearner: suggestion from 1273 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:27:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:29:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:34:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 08:34:56 [INFO] detector: AutoLearner: suggestion from 1274 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:34:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:36:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:42:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 08:42:51 [INFO] detector: AutoLearner: suggestion from 1275 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:42:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:44:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:50:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 08:50:46 [INFO] detector: AutoLearner: suggestion from 1276 cycles (consistency=0.00, cv=0.089)
+2026-07-04 08:50:46 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:51:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 08:58:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 08:58:37 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 08:58:37 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 08:59:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:01:04 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 09:01:04 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 2 חריגות תוך 7 דקות
+2026-07-04 09:02:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 09:06:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 09:06:32 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 09:06:32 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 09:06:32 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-04 09:06:32 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 88%, נסיעה רצופה (0 קפיצות-אחורה), משך 474.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-04 09:06:32 [INFO] detector: AutoLearner: suggestion from 1277 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:06:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:06:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 09:08:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:14:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 09:14:26 [INFO] detector: AutoLearner: suggestion from 1278 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:14:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:15:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:22:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 09:22:21 [INFO] detector: AutoLearner: suggestion from 1279 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:22:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:22:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:30:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 09:30:14 [INFO] detector: AutoLearner: suggestion from 1280 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:30:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:30:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:38:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 09:38:09 [INFO] detector: AutoLearner: suggestion from 1281 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:38:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:40:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:46:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 09:46:05 [INFO] detector: AutoLearner: suggestion from 1282 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:46:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:46:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:54:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 09:54:00 [INFO] detector: AutoLearner: suggestion from 1283 cycles (consistency=0.00, cv=0.089)
+2026-07-04 09:54:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 09:54:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:01:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 10:03:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:09:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 10:09:50 [INFO] detector: AutoLearner: suggestion from 1284 cycles (consistency=0.00, cv=0.089)
+2026-07-04 10:09:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:11:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:17:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 10:17:44 [INFO] detector: AutoLearner: suggestion from 1285 cycles (consistency=0.00, cv=0.089)
+2026-07-04 10:17:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:19:14 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:20:36 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 10:20:36 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 10:22:06 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:25:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '3', '0', '-1', '-2']
+2026-07-04 10:25:35 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 10:25:35 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-04 10:27:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 10:33:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 10:33:31 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 10:33:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 10:33:31 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-04 10:33:31 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 67%, ירידה 100%)
+2026-07-04 10:33:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:34:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:41:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 10:41:25 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 10:41:25 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 10:41:25 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-04 10:41:25 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 88%, נסיעה רצופה (0 קפיצות-אחורה), משך 475.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-04 10:41:26 [INFO] detector: AutoLearner: suggestion from 1286 cycles (consistency=0.00, cv=0.089)
+2026-07-04 10:41:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:41:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 10:42:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:49:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 10:49:21 [INFO] detector: AutoLearner: suggestion from 1287 cycles (consistency=0.00, cv=0.089)
+2026-07-04 10:49:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:49:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:57:10 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 10:57:10 [INFO] detector: AutoLearner: suggestion from 1288 cycles (consistency=0.00, cv=0.089)
+2026-07-04 10:57:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 10:59:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:05:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 11:05:07 [INFO] detector: AutoLearner: suggestion from 1289 cycles (consistency=0.00, cv=0.089)
+2026-07-04 11:05:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:06:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:13:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 11:13:00 [INFO] detector: AutoLearner: suggestion from 1290 cycles (consistency=0.00, cv=0.089)
+2026-07-04 11:13:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:14:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:20:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 11:20:56 [INFO] detector: AutoLearner: suggestion from 1291 cycles (consistency=0.00, cv=0.089)
+2026-07-04 11:20:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:21:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:28:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1'], down_stops=['10', '8', '6', '4', '2', '0', '-1']
+2026-07-04 11:30:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:36:46 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 11:36:46 [INFO] detector: AutoLearner: suggestion from 1292 cycles (consistency=0.00, cv=0.089)
+2026-07-04 11:36:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:38:17 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:44:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 11:44:40 [INFO] detector: AutoLearner: suggestion from 1293 cycles (consistency=0.00, cv=0.088)
+2026-07-04 11:44:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:45:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:52:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 11:52:36 [INFO] detector: AutoLearner: suggestion from 1294 cycles (consistency=0.00, cv=0.088)
+2026-07-04 11:52:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 11:53:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:00:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 12:00:30 [INFO] detector: AutoLearner: suggestion from 1295 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:00:30 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:01:30 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:08:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 12:08:24 [INFO] detector: AutoLearner: suggestion from 1296 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:08:24 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:10:54 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:16:18 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 12:16:18 [INFO] detector: AutoLearner: suggestion from 1297 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:16:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:18:49 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:24:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 12:24:14 [INFO] detector: AutoLearner: suggestion from 1298 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:24:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:25:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:32:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 12:32:08 [INFO] detector: AutoLearner: suggestion from 1299 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:32:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:33:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:40:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 12:40:03 [INFO] detector: AutoLearner: suggestion from 1300 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:40:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:40:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:47:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 12:47:57 [INFO] detector: AutoLearner: suggestion from 1301 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:47:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:48:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:55:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 12:55:51 [INFO] detector: AutoLearner: suggestion from 1302 cycles (consistency=0.00, cv=0.088)
+2026-07-04 12:55:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 12:56:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:03:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 13:03:44 [INFO] detector: AutoLearner: suggestion from 1303 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:03:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:05:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:11:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:11:38 [INFO] detector: AutoLearner: suggestion from 1304 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:11:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:13:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:19:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:19:34 [INFO] detector: AutoLearner: suggestion from 1305 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:19:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:21:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:27:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 13:27:26 [INFO] detector: AutoLearner: suggestion from 1306 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:27:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:28:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:35:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:35:21 [INFO] detector: AutoLearner: suggestion from 1307 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:35:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:36:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:43:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:43:46 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:51:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:51:09 [INFO] detector: AutoLearner: suggestion from 1308 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:51:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:51:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:59:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 13:59:01 [INFO] detector: AutoLearner: suggestion from 1309 cycles (consistency=0.00, cv=0.088)
+2026-07-04 13:59:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 13:59:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:06:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 14:06:54 [INFO] detector: AutoLearner: suggestion from 1310 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:06:54 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:08:54 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:14:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 14:14:48 [INFO] detector: AutoLearner: suggestion from 1311 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:14:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:16:18 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:22:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 14:22:41 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 14:22:41 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 14:23:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:30:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 14:30:07 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.SHABBAT
+2026-07-04 14:30:07 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> SHABBAT | סיבה: מחזור תקין — חזרה למצב שבת
+2026-07-04 14:30:08 [INFO] detector: AutoLearner: suggestion from 1312 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:30:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:30:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:38:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 14:38:28 [INFO] detector: AutoLearner: suggestion from 1313 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:38:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:40:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:46:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 14:46:20 [INFO] detector: AutoLearner: suggestion from 1314 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:46:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:48:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:54:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 14:54:16 [INFO] detector: AutoLearner: suggestion from 1315 cycles (consistency=0.00, cv=0.088)
+2026-07-04 14:54:17 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 14:54:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:02:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 15:02:08 [INFO] detector: AutoLearner: suggestion from 1316 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:02:08 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:02:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:10:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 15:10:02 [INFO] detector: AutoLearner: suggestion from 1317 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:10:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:12:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:17:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 15:17:57 [INFO] detector: AutoLearner: suggestion from 1318 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:17:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:19:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:25:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 15:25:52 [INFO] detector: AutoLearner: suggestion from 1319 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:25:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:27:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:33:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 15:33:21 [INFO] detector: AutoLearner: suggestion from 1320 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:33:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:33:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:41:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 15:41:42 [INFO] detector: AutoLearner: suggestion from 1321 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:41:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:43:12 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:49:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 15:49:37 [INFO] detector: AutoLearner: suggestion from 1322 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:49:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:51:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:57:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 15:57:27 [INFO] detector: AutoLearner: suggestion from 1323 cycles (consistency=0.00, cv=0.088)
+2026-07-04 15:57:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 15:59:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:05:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 16:05:21 [INFO] detector: AutoLearner: suggestion from 1324 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:05:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:06:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:13:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 16:13:19 [INFO] detector: AutoLearner: suggestion from 1325 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:13:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:15:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:21:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 471s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 16:21:09 [INFO] detector: AutoLearner: suggestion from 1326 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:21:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:22:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:29:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 16:29:04 [INFO] detector: AutoLearner: suggestion from 1327 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:29:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:30:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:36:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 16:36:59 [INFO] detector: AutoLearner: suggestion from 1328 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:37:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:38:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:44:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 16:44:52 [INFO] detector: AutoLearner: suggestion from 1329 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:44:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:45:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:52:46 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 16:52:46 [INFO] detector: AutoLearner: suggestion from 1330 cycles (consistency=0.00, cv=0.088)
+2026-07-04 16:52:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 16:53:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:00:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 17:00:42 [INFO] detector: AutoLearner: suggestion from 1331 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:00:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:02:12 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:08:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 17:08:36 [INFO] detector: AutoLearner: suggestion from 1332 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:08:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:09:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:16:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 17:16:32 [INFO] detector: AutoLearner: suggestion from 1333 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:16:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:17:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:24:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 17:24:26 [INFO] detector: AutoLearner: suggestion from 1334 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:24:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:26:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:32:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 17:32:22 [INFO] detector: AutoLearner: suggestion from 1335 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:32:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:34:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:40:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 17:40:15 [INFO] detector: AutoLearner: suggestion from 1336 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:40:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:42:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:48:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 17:48:08 [INFO] detector: AutoLearner: suggestion from 1337 cycles (consistency=0.00, cv=0.088)
+2026-07-04 17:48:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:49:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 17:56:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1']
+2026-07-04 17:56:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:03:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 18:03:57 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 18:03:57 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 מחזורים חריגים ברצף — ממתין לאישור יציאה
+2026-07-04 18:04:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:11:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 18:11:51 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.SHABBAT
+2026-07-04 18:11:51 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> SHABBAT | סיבה: מחזור תקין — חזרה למצב שבת
+2026-07-04 18:11:52 [INFO] detector: AutoLearner: suggestion from 1338 cycles (consistency=0.00, cv=0.088)
+2026-07-04 18:11:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:13:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:19:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 18:19:45 [INFO] detector: AutoLearner: suggestion from 1339 cycles (consistency=0.00, cv=0.088)
+2026-07-04 18:19:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:20:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:27:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 18:27:39 [INFO] detector: AutoLearner: suggestion from 1340 cycles (consistency=0.00, cv=0.088)
+2026-07-04 18:27:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:29:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:35:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 18:35:33 [INFO] detector: AutoLearner: suggestion from 1341 cycles (consistency=0.00, cv=0.088)
+2026-07-04 18:35:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:37:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:43:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 18:43:26 [INFO] detector: AutoLearner: suggestion from 1342 cycles (consistency=0.00, cv=0.087)
+2026-07-04 18:43:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:44:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:51:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 18:51:20 [INFO] detector: AutoLearner: suggestion from 1343 cycles (consistency=0.00, cv=0.087)
+2026-07-04 18:51:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:52:20 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 18:59:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1']
+2026-07-04 18:59:13 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 18:59:13 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 19:00:14 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:07:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 19:07:09 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.SHABBAT
+2026-07-04 19:07:09 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> SHABBAT | סיבה: מחזור תקין — חזרה למצב שבת
+2026-07-04 19:07:09 [INFO] detector: AutoLearner: suggestion from 1344 cycles (consistency=0.00, cv=0.087)
+2026-07-04 19:07:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:09:10 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:15:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 19:15:05 [INFO] detector: AutoLearner: suggestion from 1345 cycles (consistency=0.00, cv=0.087)
+2026-07-04 19:15:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:17:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:22:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 19:22:58 [INFO] detector: AutoLearner: suggestion from 1346 cycles (consistency=0.00, cv=0.087)
+2026-07-04 19:22:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:24:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:30:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 472s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 19:30:50 [INFO] detector: AutoLearner: suggestion from 1347 cycles (consistency=0.00, cv=0.087)
+2026-07-04 19:30:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:32:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:38:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 19:38:45 [INFO] detector: AutoLearner: suggestion from 1348 cycles (consistency=0.00, cv=0.087)
+2026-07-04 19:38:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:40:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:46:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 488s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-2']
+2026-07-04 19:46:52 [INFO] detector: AutoLearner: suggestion from 1349 cycles (consistency=0.00, cv=0.091)
+2026-07-04 19:46:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:47:23 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:49:45 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 19:49:45 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 19:50:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 19:54:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 473s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '3', '0', '-1', '-2']
+2026-07-04 19:54:45 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 19:54:45 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-04 19:56:15 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 20:02:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 476s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 20:02:40 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 20:02:40 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 20:02:40 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-07-04 20:02:40 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 88%, נסיעה רצופה (0 קפיצות-אחורה), משך 476.0s (0.61× הצפוי 780.0s), 0 חריגות טיימינג
+2026-07-04 20:02:40 [INFO] detector: AutoLearner: suggestion from 1350 cycles (consistency=0.00, cv=0.091)
+2026-07-04 20:02:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:02:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 20:04:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:10:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 475s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '7', '4', '2', '0', '-1', '-2']
+2026-07-04 20:10:38 [INFO] detector: AutoLearner: suggestion from 1351 cycles (consistency=0.00, cv=0.091)
+2026-07-04 20:10:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:11:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:18:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '3', '0', '-1', '-2']
+2026-07-04 20:18:31 [INFO] detector: AutoLearner: suggestion from 1352 cycles (consistency=0.00, cv=0.091)
+2026-07-04 20:18:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:21:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:26:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 20:26:25 [INFO] detector: AutoLearner: suggestion from 1353 cycles (consistency=0.00, cv=0.091)
+2026-07-04 20:26:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:28:55 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:34:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 474s, up_stops=['-2', '-1', '0'], down_stops=['10', '8', '6', '4', '2', '0', '-1', '-2']
+2026-07-04 20:34:17 [INFO] detector: AutoLearner: suggestion from 1354 cycles (consistency=0.00, cv=0.091)
+2026-07-04 20:34:18 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:36:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:38:46 [INFO] shabbat_detector.fsm: [D] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-07-04 20:38:46 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT | סיבה: 2 חריגות תוך 7 דקות — ממתין לאישור יציאה
+2026-07-04 20:39:07 [INFO] shabbat_detector.fsm: [D] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-07-04 20:39:07 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL | סיבה: יציאה ממצב שבת — 3 חריגות תוך 7 דקות
+2026-07-04 20:39:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 20:40:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR', 'SHABBAT_ACTIVE'])
+2026-07-04 21:31:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 448s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-04 23:11:20 [INFO] shabbat_detector.fsm: [D] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-04 23:11:20 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-04 23:12:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-04 23:32:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 362s — resetting cycle (was in _Phase.LEG_ONE)
+2026-07-05 00:35:23 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1719s — resetting cycle (was in _Phase.LEG_ONE)
