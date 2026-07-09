@@ -1,48 +1,61 @@
-2026-07-01 20:43:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-01 20:43:35 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-01 20:45:05 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-07-01 21:37:51 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
-2026-07-01 21:37:51 [INFO] detector: SHABBAT_OVERRIDE force_off -> force_on ; SHABBAT_ACTIVE := True
-2026-07-01 21:38:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
-2026-07-02 03:02:22 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-02 03:02:25 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
-2026-07-02 03:02:49 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-02 03:03:53 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-07-02 08:39:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-02 08:40:31 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
-2026-07-02 11:51:26 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
-2026-07-02 11:51:36 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-02 11:53:07 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-07-02 21:52:37 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
-2026-07-02 21:52:37 [INFO] detector: SHABBAT_OVERRIDE force_on -> force_off ; SHABBAT_ACTIVE := False
-2026-07-02 21:53:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
-2026-07-03 01:12:05 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
-2026-07-03 01:12:05 [INFO] detector: SHABBAT_OVERRIDE force_off -> force_on ; SHABBAT_ACTIVE := True
-2026-07-03 01:13:05 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
-2026-07-03 01:28:01 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
-2026-07-03 01:28:01 [INFO] detector: SHABBAT_OVERRIDE force_on -> force_off ; SHABBAT_ACTIVE := False
-2026-07-03 01:29:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
-2026-07-04 00:22:59 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out. — reconnecting in 10s
-2026-07-04 00:23:09 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
-2026-07-04 12:58:17 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
-2026-07-04 12:58:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-04 12:59:58 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-07-04 19:57:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 08:19:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 09:01:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 10:16:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
-2026-07-05 13:18:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 14:53:09 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-05 14:53:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 14:54:40 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
-2026-07-05 15:39:24 [INFO] detector: Shutting down (signal 15)
-2026-07-05 15:39:25 [INFO] detector: Detector starting for elevator B (test_mode=False)
-2026-07-05 15:39:26 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
-2026-07-05 15:39:26 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
-2026-07-05 15:39:26 [INFO] detector: FSM restored: state=DetectorState.NORMAL
-2026-07-05 15:39:26 [INFO] detector: AutoLearner restored: 0 cycle(s)
-2026-07-05 15:39:26 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
-2026-07-05 15:39:26 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-07-05 15:39:26 [INFO] detector: Listening for elevator events...
-2026-07-05 15:39:26 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
-2026-07-05 15:40:56 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-08 14:28:32 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
+2026-07-08 14:28:32 [INFO] detector: SHABBAT_OVERRIDE force_on -> force_off ; SHABBAT_ACTIVE := False
+2026-07-08 14:29:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-08 14:43:29 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-07-08 14:43:30 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-07-08 14:43:30 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-07-08 14:43:30 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-07-08 14:43:30 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-07-08 14:43:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-07-08 14:43:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-08 14:43:30 [INFO] detector: Listening for elevator events...
+2026-07-08 14:43:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-07-08 14:46:38 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-08 14:48:42 [INFO] detector: Shutting down (signal 15)
+2026-07-08 14:49:12 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-07-08 14:49:13 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-07-08 14:49:13 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-07-08 14:49:13 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-07-08 14:49:13 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-07-08 14:49:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-07-08 14:49:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-08 14:49:13 [INFO] detector: Listening for elevator events...
+2026-07-08 14:49:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-07-08 14:50:57 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-08 15:05:26 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
+2026-07-08 15:05:26 [INFO] detector: SHABBAT_OVERRIDE force_off -> force_on ; SHABBAT_ACTIVE := True
+2026-07-08 15:05:27 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
+2026-07-08 15:05:27 [INFO] detector: SHABBAT_OVERRIDE force_on -> force_off ; SHABBAT_ACTIVE := False
+2026-07-08 15:05:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-08 15:07:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-08 15:11:26 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_OVERRIDE'])
+2026-07-08 15:11:26 [INFO] detector: SHABBAT_OVERRIDE force_off -> force_on ; SHABBAT_ACTIVE := True
+2026-07-08 15:12:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-08 15:27:45 [INFO] detector: Shutting down (signal 15)
+2026-07-08 15:28:13 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-07-08 15:28:14 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-07-08 15:28:14 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-07-08 15:28:14 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-07-08 15:28:14 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-07-08 15:28:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-07-08 15:28:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-08 15:28:14 [INFO] detector: Listening for elevator events...
+2026-07-08 15:28:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-07-08 15:30:01 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-07-09 00:21:10 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-09 01:55:35 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-07-09 01:55:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-07-09 02:21:41 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
+2026-07-09 02:21:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-09 06:18:47 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
+2026-07-09 06:18:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-09 11:37:28 [INFO] detector: Shutting down (signal 15)
+2026-07-09 11:37:29 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-07-09 11:37:30 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-07-09 11:37:30 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-07-09 11:37:30 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-07-09 11:37:30 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-07-09 11:37:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-07-09 11:37:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-07-09 11:37:30 [INFO] detector: Listening for elevator events...
+2026-07-09 11:37:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
