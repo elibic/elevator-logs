@@ -1962,3 +1962,36 @@
 2026-07-12 15:17:45 [INFO] detector: SHABBAT_OVERRIDE force_on -> auto (source=schedule) ; SHABBAT_ACTIVE := False
 2026-07-12 15:17:45 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
 2026-07-12 15:19:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-12 15:32:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 15:32:09 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-12 15:32:09 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-12 15:45:36 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 773s, up_stops=['-2', '11'], down_stops=['-1', '8', '7', '6', '7', '6', '7', '6', '7', '8', '-1']
+2026-07-12 15:45:36 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-12 15:45:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; עצירות לא חוקיות בירידה: ['6', '8']; כיסוי קומות חלקי (עלייה 33%, ירידה 22%); קפיצות-אחורה (עלייה 0, ירידה 5); חזרות על קומות (עלייה 0, ירידה 7); 4 חריגות טיימינג
+2026-07-12 15:48:02 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 211s, up_stops=['11'], down_stops=[]
+2026-07-12 15:48:02 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-12 15:48:02 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-12 15:48:02 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-12 15:48:02 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-07-12 15:52:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 292s, up_stops=['-1', '8', '11'], down_stops=['10', '-1', '6', '-2']
+2026-07-12 15:52:59 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-12 15:52:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-12 15:52:59 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-12 15:52:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11', '8']; עצירות לא חוקיות בירידה: ['10', '6']; כיסוי קומות חלקי (עלייה 33%, ירידה 22%); קפיצות-אחורה (עלייה 0, ירידה 1); 6 חריגות טיימינג
+2026-07-12 15:58:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 15:58:35 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-12 15:58:35 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-12 15:59:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 16:01:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 16:12:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 16:13:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 16:22:02 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 427s, up_stops=['-2', '8', '9', '-1', '11'], down_stops=['-1', '6', '7', '-1']
+2026-07-12 16:22:02 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-12 16:22:02 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11', '8', '9']; עצירות לא חוקיות בירידה: ['6']; כיסוי קומות חלקי (עלייה 67%, ירידה 22%); קפיצות-אחורה (עלייה 1, ירידה 2); 4 חריגות טיימינג
+2026-07-12 16:26:44 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := True | סיבה: כניסה למצב שבת לפי לוח זמנים - 9000 דק' לפני הדלקת נרות
+2026-07-12 16:27:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-12 16:28:55 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := False | סיבה: יציאה ממצב שבת לפי לוח זמנים - 10 דק' אחרי הבדלה
+2026-07-12 16:30:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-12 16:30:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-12 16:30:39 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-12 16:30:39 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
