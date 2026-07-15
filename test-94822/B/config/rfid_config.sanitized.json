@@ -1,0 +1,55 @@
+{
+  "notifications": {
+    "channels": {
+      "email": {
+        "enabled": true,
+        "from": "",
+        "password": "***REDACTED***",
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 587,
+        "to": [],
+        "username": ""
+      },
+      "telegram": {
+        "bot_token": "***REDACTED***",
+        "chat_id": "",
+        "enabled": false
+      },
+      "whatsapp": {
+        "enabled": false
+      }
+    },
+    "enabled": false,
+    "events": {
+      "no_movement": true,
+      "shabbat_enter": true,
+      "shabbat_exit": true
+    },
+    "no_movement": {
+      "night_end": "06:00",
+      "night_start": "23:00",
+      "threshold_hours": 10
+    }
+  },
+  "settings": {
+    "BAUDRATE": 115200,
+    "CONFIRMATION_SAMPLES": 2,
+    "ELEVATOR_ID": "B",
+    "FIREBASE_URL": "https://test-94822-default-rtdb.firebaseio.com/elevators.json",
+    "LOG_BACKUP_ENABLED": true,
+    "LOG_BACKUP_INTERVAL_DAYS": 7,
+    "LOG_BACKUP_REPO_URL": "https://***@github.com/elibic/elevator-logs.git",
+    "RF_POWER": "23.0",
+    "SECRET_KEY": "***REDACTED***",
+    "SERIAL_PORT": "/dev/ttyUSB0",
+    "TIME_PER_FLOOR": 30
+  },
+  "tags": {
+    "00E2004707DC5060270EA801": "0",
+    "00E2004707DCD060270EB001": "2",
+    "00E2004707DD1060270EB401": "3",
+    "00E28011704000021CEE45BA": "8",
+    "00E28011704000021CEE45BB": "15",
+    "00E28011704000021CEE45EB": "1"
+  }
+}

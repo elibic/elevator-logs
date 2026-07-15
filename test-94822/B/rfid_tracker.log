@@ -8861,3 +8861,28 @@
 [2026-07-15 15:24:01] Tag Change: ID '00E28011704000021CEE45F3' -> Floor 'Unknown'
 [2026-07-15 15:24:12] Tag Change: ID '00E28011704000021CEE45C3' -> Floor 'Unknown'
 [2026-07-15 15:24:14] Tag Change: ID '00E28011704000021CEE45E2' -> Floor 'Unknown'
+[2026-07-15 15:24:37] Tag Change: ID '00E2004707DE5060270EC801' -> Floor 'Unknown'
+[2026-07-15 15:24:38] Tag Change: ID '00E2004707DB5060270E9801' -> Floor 'Unknown'
+[2026-07-15 15:24:39] Tag Change: ID '00E28011704000021C' -> Floor 'Unknown'
+[2026-07-15 15:24:42] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-07-15 15:24:51] Tag flapping: suppressed 265 repeated tag-change log lines in the last 60s
+[2026-07-15 15:24:58] Tag Change: ID '00E280691500004017AAE671' -> Floor 'Unknown'
+[2026-07-15 15:25:02] Tag Change: ID '00E28011704000021CEE45F3' -> Floor 'Unknown'
+[2026-07-15 15:25:12] Tag Change: ID '00E28011704000021CEE45C3' -> Floor 'Unknown'
+[2026-07-15 15:25:20] Tag Change: ID '00E28011704000021CEE45E2' -> Floor 'Unknown'
+[2026-07-15 15:25:34] --- Smart Elevator Tracker (Secured) --- ID: B
+[2026-07-15 15:25:34] Status URL: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+[2026-07-15 15:25:34] Logs URL: https://test-94822-default-rtdb.firebaseio.com/logs/B.json
+[2026-07-15 15:25:34] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-07-15 15:25:35] Tag Change: ID '00E2004707DE5060270EC801' -> Floor 'Unknown'
+[2026-07-15 15:25:35] Tag Change: ID '00E28011704000021CEE45E2' -> Floor 'Unknown'
+[2026-07-15 15:25:35] Tag Change: ID '00E28011704000021CEE45C3' -> Floor 'Unknown'
+[2026-07-15 15:25:36] Tag Change: ID '00E280691500004017AAE671' -> Floor 'Unknown'
+[2026-07-15 15:25:38] Tag Change: ID '00E2004707DB5060270E9801' -> Floor 'Unknown'
+[2026-07-15 15:26:01] Tag Change: ID '00E28011704000021CEE45F3' -> Floor 'Unknown'
+[2026-07-15 15:26:34] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-07-15 15:26:35] Tag Change: ID '00E2004707DE5060270EC801' -> Floor 'Unknown'
+[2026-07-15 15:26:35] Tag flapping: suppressed 256 repeated tag-change log lines in the last 60s
+[2026-07-15 15:26:36] Tag Change: ID '00E28011704000021CEE45E2' -> Floor 'Unknown'
+[2026-07-15 15:26:36] Tag Change: ID '00E280691500004017AAE671' -> Floor 'Unknown'
+[2026-07-15 15:26:36] Tag Change: ID '00E28011704000021CEE45C3' -> Floor 'Unknown'
