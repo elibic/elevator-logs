@@ -4021,3 +4021,66 @@
 2026-07-15 15:08:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1784305620.0 havdalah=1784396220.0
 2026-07-15 15:10:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
 2026-07-15 15:15:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-15 19:33:40 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-15 22:28:58 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-07-15 22:28:59 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 01:08:29 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 3s
+2026-07-16 01:08:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 01:18:22 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-07-16 01:18:52 [INFO] detector: Config updated remotely (keys=['BOTTOM_FLOOR', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'ZERO_FLOOR_WAIT_ACTIVE', 'ZERO_FLOOR_WAIT_SECONDS', 'secret_key'])
+2026-07-16 01:33:42 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-16 02:40:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-07-16 02:40:43 [INFO] detector: Config updated remotely (keys=['BOTTOM_FLOOR', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'ZERO_FLOOR_WAIT_ACTIVE', 'ZERO_FLOOR_WAIT_SECONDS', 'secret_key'])
+2026-07-16 06:33:30 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 5s
+2026-07-16 06:33:35 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 07:33:43 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-16 07:39:52 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 12s
+2026-07-16 07:40:04 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 08:27:15 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 17s
+2026-07-16 08:27:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 12:58:50 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-07-16 13:33:44 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-16 13:36:43 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'FLOOR_WAITS', 'AUTO_LEARN_CONFIG', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 13:36:43 [ERROR] shabbat_detector.firebase_client: Config callback error: 'list' object has no attribute 'items'
+2026-07-16 13:37:43 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 13:37:43 [INFO] detector: SHABBAT_OVERRIDE force_on -> auto (source=schedule) ; SHABBAT_ACTIVE := False
+2026-07-16 13:39:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-07-16 14:16:58 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 14:16:58 [INFO] detector: SHABBAT_OVERRIDE auto -> force_on (source=schedule) ; SHABBAT_ACTIVE := True
+2026-07-16 14:17:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 14:17:56 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 14:17:56 [INFO] detector: SHABBAT_OVERRIDE force_on -> force_off (source=schedule) ; SHABBAT_ACTIVE := False
+2026-07-16 14:18:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1784305620.0 havdalah=1784396220.0
+2026-07-16 14:18:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 83037s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-16 14:18:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 14:20:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-16 14:45:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1784305620.0 havdalah=1784396220.0
+2026-07-16 14:45:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1584s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-16 16:10:25 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-07-16 16:10:26 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-07-16 16:51:32 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 16:51:32 [INFO] detector: SHABBAT_OVERRIDE force_off -> force_on (source=schedule) ; SHABBAT_ACTIVE := True
+2026-07-16 16:51:32 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 16:51:32 [INFO] detector: SHABBAT_OVERRIDE force_on -> auto (source=schedule) ; SHABBAT_ACTIVE := False
+2026-07-16 16:51:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 16:53:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:01:00 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 17:01:00 [INFO] detector: SHABBAT_OVERRIDE auto -> force_on (source=schedule) ; SHABBAT_ACTIVE := True
+2026-07-16 17:01:01 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 17:01:01 [INFO] detector: SHABBAT_OVERRIDE force_on -> auto (source=schedule) ; SHABBAT_ACTIVE := False
+2026-07-16 17:01:01 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:01:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:01:50 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 17:01:50 [INFO] detector: SHABBAT_OVERRIDE auto -> force_on (source=schedule) ; SHABBAT_ACTIVE := True
+2026-07-16 17:01:51 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-07-16 17:01:51 [INFO] detector: SHABBAT_OVERRIDE force_on -> auto (source=schedule) ; SHABBAT_ACTIVE := False
+2026-07-16 17:01:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:04:21 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:04:44 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := True | סיבה: כניסה למצב שבת לפי לוח זמנים - 1740 דק' לפני הדלקת נרות
+2026-07-16 17:06:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 17:06:44 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := False | סיבה: יציאה ממצב שבת לפי לוח זמנים - 30 דק' אחרי הבדלה
+2026-07-16 17:08:44 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-07-16 19:33:46 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-17 01:33:47 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-17 02:04:20 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 4s
+2026-07-17 02:04:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
