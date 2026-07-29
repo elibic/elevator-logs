@@ -1,188 +1,121 @@
-2026-07-22 13:41:55 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:41:55 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:42:06 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:42:07 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:42:17 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:42:18 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:42:28 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:42:29 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:42:40 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:42:40 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:42:56 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:42:56 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:43:07 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:43:08 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:43:18 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:43:19 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:43:29 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:43:30 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:43:40 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:43:41 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:43:51 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:43:52 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:02 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:03 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:13 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:14 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:24 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:25 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:36 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:36 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:47 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:47 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:44:58 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:44:58 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:45:09 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:45:09 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:45:20 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:45:20 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:45:31 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:45:31 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:45:42 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:45:42 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:45:53 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:45:54 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:46:04 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:46:05 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:46:16 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:46:16 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:46:27 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:46:27 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:46:38 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:46:38 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:46:50 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:46:50 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:01 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:47:01 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:12 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:47:13 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:24 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:47:24 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:36 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:47:37 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:48 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:47:48 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:47:59 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:00 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:48:11 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:11 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:48:20 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:21 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:48:31 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:32 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:48:42 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:43 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:48:54 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:48:54 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:49:05 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:49:05 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:49:16 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:49:16 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:49:27 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:49:27 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:49:38 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:49:39 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:49:49 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:49:50 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:01 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:01 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:12 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:13 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:23 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:24 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:34 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:35 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:46 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:46 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:50:57 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:50:57 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:51:08 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:51:08 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:51:19 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:51:19 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:51:30 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:51:30 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:51:41 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:51:42 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:51:52 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:51:53 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:04 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:52:04 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:15 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:52:15 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:26 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:52:26 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:37 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:52:37 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:48 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:52:49 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:52:59 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:00 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:53:10 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:11 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:53:22 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:22 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:53:33 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:33 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:53:44 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:44 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:53:55 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:53:55 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:54:06 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:54:07 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:54:18 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:54:18 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:54:29 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:54:29 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:54:40 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:54:40 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:54:51 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:54:51 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:02 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:03 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:13 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:14 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:24 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:25 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:35 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:36 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:47 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:47 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:55:58 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:55:58 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:56:09 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:56:09 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:56:20 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:56:20 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:56:31 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:56:31 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:56:46 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:56:46 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:56:57 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:56:58 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:57:08 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:57:09 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:57:19 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:57:20 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:57:30 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:57:31 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:57:42 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:57:42 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:57:53 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:57:53 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:04 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:04 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:09 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:09 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:20 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:20 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:31 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:31 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:42 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:42 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:58:53 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:58:53 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:59:25 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:59:25 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
-2026-07-22 13:59:41 [INFO] detector: Detector starting for elevator A (test_mode=False)
-2026-07-22 13:59:41 [INFO] detector: Loaded config: TOP=12 BOTTOM=0 TIME_PER_FLOOR=34
+2026-07-29 00:01:01 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:02:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:03:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:05:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:07:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:14:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:14:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:16:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:21:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:24:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:27:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:32:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:34:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:40:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:43:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:45:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:46:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 00:56:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 00:56:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 647s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 01:04:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 01:22:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 01:22:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1163s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 01:33:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 01:33:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 631s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 02:41:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 02:41:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4045s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 03:24:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 03:24:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2479s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 03:37:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 03:37:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 759s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 04:15:52 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-29 06:20:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 06:20:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 9736s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 07:16:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 07:16:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3349s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 07:19:17 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 07:32:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 07:32:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 855s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 07:34:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 08:26:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 08:26:14 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3073s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 08:35:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 08:36:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 08:40:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 08:51:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 08:51:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 734s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 08:55:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 08:59:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:04:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 09:05:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:13:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 491s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 09:14:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:15:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 09:18:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:20:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:30:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 09:30:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 644s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 09:31:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:33:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:39:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:43:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 09:48:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:51:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 09:53:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:01:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 10:01:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 544s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 10:08:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:12:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 10:14:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:15:54 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-07-29 10:22:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 490s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 10:23:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 10:23:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:35:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 10:36:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:46:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 10:46:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 596s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 10:54:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 10:56:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 106s, up_stops=[], down_stops=[]
+2026-07-29 10:56:36 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-29 10:56:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-07-29 11:09:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 11:09:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 633s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 11:11:24 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-29 11:11:24 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-29 11:13:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 11:19:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 11:22:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 11:28:51 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 525s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 11:30:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 11:30:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 11:45:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 11:45:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 915s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 11:59:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 11:59:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 865s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 12:14:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 12:14:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 812s - resetting cycle (was in _Phase.LEG_TWO)
+2026-07-29 12:18:06 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-29 12:24:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 12:25:35 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-29 12:29:28 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-07-29 12:35:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 12:49:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 12:49:21 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 831s - resetting cycle (was in _Phase.LEG_TWO)
+2026-07-29 12:52:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 12:57:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-07-29 13:04:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 13:04:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 474s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 13:12:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 450s, up_stops=['11'], down_stops=[]
+2026-07-29 13:12:17 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-29 13:12:17 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-07-29 13:14:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 13:15:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 161s, up_stops=[], down_stops=[]
+2026-07-29 13:15:28 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-29 13:15:28 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-07-29 13:15:28 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-07-29 13:15:28 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-07-29 13:46:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1785514740.0 havdalah=1785605280.0
+2026-07-29 13:46:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1679s - resetting cycle (was in _Phase.LEG_ONE)
+2026-07-29 13:48:31 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-07-29 13:48:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
