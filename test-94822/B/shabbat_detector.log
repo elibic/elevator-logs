@@ -1,4 +1,1 @@
-2026-08-05 02:52:09 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
-2026-08-05 02:52:10 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
-2026-08-05 11:14:36 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
-2026-08-05 11:14:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-12 07:01:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
