@@ -1,0 +1,221 @@
+2026-08-07 01:12:20 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-07 01:12:20 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-07 01:12:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 01:12:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 01:12:20 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-07 01:12:20 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-07 01:12:20 [INFO] detector: Listening for elevator events...
+2026-08-07 01:12:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 01:12:24 [INFO] detector: Shutting down (signal 15)
+2026-08-07 01:12:25 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-07 01:12:25 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-07 01:12:25 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-07 01:12:25 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-08-07 01:12:25 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-07 01:12:25 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 01:12:25 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 01:12:25 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-07 01:12:25 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-07 01:12:25 [INFO] detector: Listening for elevator events...
+2026-08-07 01:12:25 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 01:12:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-07 01:12:56 [INFO] shabbat_detector.fsm: [B] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-07 01:12:56 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=force_off, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-07 01:13:52 [INFO] detector: Shutting down (signal 15)
+2026-08-07 01:14:27 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-07 01:14:27 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-07 01:14:27 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-07 01:14:27 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-08-07 01:14:27 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-07 01:14:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 01:14:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 01:14:27 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-07 01:14:27 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-07 01:14:27 [INFO] detector: Listening for elevator events...
+2026-08-07 01:14:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 01:14:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-07 01:16:27 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-07 01:28:35 [INFO] detector: Config updated remotely (keys=['ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE', 'SHABBAT_OVERRIDE'])
+2026-08-07 01:28:35 [INFO] detector: SHABBAT_OVERRIDE force_off -> auto (source=schedule) ; SHABBAT_ACTIVE := False
+2026-08-07 01:28:58 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-07 01:29:36 [INFO] detector: Shutting down (signal 15)
+2026-08-07 01:29:37 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-07 01:29:38 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-07 01:29:38 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-07 01:29:38 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-08-07 01:29:38 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-07 01:29:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 01:29:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 01:29:38 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-07 01:29:38 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-07 01:29:38 [INFO] detector: Listening for elevator events...
+2026-08-07 01:29:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 01:30:08 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-07 01:30:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-07 01:32:47 [INFO] detector: Shutting down (signal 15)
+2026-08-07 01:33:14 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-07 01:33:14 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-07 01:33:14 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-07 01:33:14 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-08-07 01:33:14 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-07 01:33:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 01:33:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 01:33:14 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-07 01:33:14 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-07 01:33:14 [INFO] detector: Listening for elevator events...
+2026-08-07 01:33:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 01:33:44 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-07 01:33:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-07 04:01:33 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-07 04:01:35 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-07 07:14:47 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-07 07:14:49 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-07 07:29:15 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-07 13:29:16 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-07 15:33:27 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-07 15:33:29 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 15:33:59 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-07 19:12:17 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := True | סיבה: כניסה למצב שבת לפי לוח זמנים - 20 דק' לפני הדלקת נרות
+2026-08-07 19:13:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-08-07 19:29:18 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-07 19:59:17 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-07 19:59:18 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 19:59:48 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-07 20:10:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-07 20:11:23 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 00:25:28 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 00:25:30 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 00:26:00 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 01:29:19 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-08 02:22:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 02:22:32 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 07:29:20 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-08 08:35:36 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 08:35:38 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 08:36:08 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 13:29:22 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-08 13:55:17 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 13:55:18 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 13:55:48 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 19:11:23 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 19:11:25 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 19:11:55 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 19:14:23 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-08 19:29:23 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-08 20:17:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-08 20:41:23 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := False | סיבה: יציאה ממצב שבת לפי לוח זמנים - 30 דק' אחרי הבדלה
+2026-08-08 20:41:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-08-08 21:06:55 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 21:06:57 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 21:07:27 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-08 21:30:57 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-08 21:30:59 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-08 21:31:29 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-09 01:20:31 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-09 01:20:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-09 01:21:02 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-09 01:29:24 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-09 07:29:26 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-09 11:23:43 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-08-09 11:23:44 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-09 11:24:15 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-09 13:29:27 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-09 19:29:28 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-10 01:29:29 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-10 07:29:30 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-10 13:26:18 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-10 13:26:19 [INFO] detector: Loaded config: TOP=27 BOTTOM=0 TIME_PER_FLOOR=30
+2026-08-10 13:26:19 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-10 13:26:19 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-08-10 13:26:19 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-10 13:26:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-10 13:26:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-10 13:26:19 [INFO] detector: SHABBAT_SOURCE=schedule - running boot alignment
+2026-08-10 13:26:19 [INFO] detector: SHABBAT_SOURCE resolved (boot) -> schedule
+2026-08-10 13:26:19 [INFO] detector: Listening for elevator events...
+2026-08-10 13:26:19 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:13:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 22:13:14 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-11 22:13:14 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-11 22:13:52 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-11 22:13:52 [ERROR] shabbat_detector.firebase_client: Failed to fetch elevator config: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:52 [ERROR] shabbat_detector.firebase_client: Failed to fetch settings: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:52 [INFO] detector: Loaded config: TOP=None BOTTOM=None TIME_PER_FLOOR=None
+2026-08-11 22:13:52 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-11 22:13:52 [INFO] detector: FSM restored: state=DetectorState.CANDIDATE_SHABBAT
+2026-08-11 22:13:52 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-11 22:13:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:13:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:13:52 [INFO] detector: Listening for elevator events...
+2026-08-11 22:13:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:13:53 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:53 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:53 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevators/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:53 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-11 22:13:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:13:54 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:13:54 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:13:54 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevators/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:54 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 3s
+2026-08-11 22:13:56 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:13:56 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:57 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:13:57 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:57 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:13:57 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevators/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:13:57 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 5s
+2026-08-11 22:14:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:14:02 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevators/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:02 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 12s
+2026-08-11 22:14:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:14:02 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:05 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:14:05 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:14:14 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevators/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:14 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 26s
+2026-08-11 22:14:15 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:14:15 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/B.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/B.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:17 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:14:17 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by NameResolutionError("HTTPSConnection(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Failed to resolve 'nitzaelev-default-rtdb.europe-west1.firebasedatabase.app' ([Errno -3] Temporary failure in name resolution)"))
+2026-08-11 22:14:34 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/B.json
+2026-08-11 22:14:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-11 22:15:28 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/B.json
+2026-08-11 22:15:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786722180.0 havdalah=1786813980.0
+2026-08-11 22:15:53 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-11 22:15:56 [INFO] detector: SHABBAT_SOURCE resolved auto -> schedule
+2026-08-11 22:15:57 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-11 22:16:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 22:21:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:25:02 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 263s, up_stops=['26'], down_stops=[]
+2026-08-11 22:25:02 [INFO] shabbat_detector.fsm: [B] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-11 22:25:02 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['26']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-11 22:25:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 22:27:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:27:41 [INFO] shabbat_detector.fsm: [B] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-11 22:27:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-11 22:30:53 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:39:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 22:39:31 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 635s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-11 22:42:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:44:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:52:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 22:52:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 520s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-11 22:54:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 22:59:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:02:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 23:03:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:12:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:12:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 23:15:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:25:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 23:25:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 706s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-11 23:29:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:36:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:42:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 23:45:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:53:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1786119180.0 havdalah=1786209720.0
+2026-08-11 23:54:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-11 23:58:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
