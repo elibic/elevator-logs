@@ -1,1 +1,40 @@
 2026-08-12 07:01:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-08-13 15:12:42 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-08-13 15:14:12 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-14 04:27:35 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-14 04:27:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-14 04:43:28 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-08-14 04:43:29 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-14 04:53:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-08-14 18:09:42 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='test-94822-default-rtdb.firebaseio.com', port=443): Read timed out.
+2026-08-14 18:09:42 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-14 18:09:44 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-14 21:14:44 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-08-14 21:16:15 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-16 01:42:03 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-08-16 01:42:04 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-16 05:04:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-08-17 03:01:50 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-08-17 03:01:51 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-17 03:01:55 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-08-17 03:02:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-08-17 03:03:25 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-17 11:22:41 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:24:11 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:49:10 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:52:27 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:52:38 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:52:45 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:52:54 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 11:53:54 [INFO] detector: Config updated remotely (keys=['DISPLAY_NAME', 'ZERO_FLOOR_WAIT_SECONDS', 'ZERO_FLOOR_WAIT_ACTIVE', 'SHABBAT_BREAKS', 'SHABBAT_SOURCE'])
+2026-08-17 14:30:40 [INFO] detector: Shutting down (signal 15)
+2026-08-17 14:30:41 [INFO] detector: Detector starting for elevator B (test_mode=False)
+2026-08-17 14:30:41 [INFO] detector: Loaded config: TOP=12 BOTTOM=-3 TIME_PER_FLOOR=27
+2026-08-17 14:30:41 [INFO] shabbat_detector.state_persistence: Restored state from /var/lib/shabbat_detector/state_B.json
+2026-08-17 14:30:41 [INFO] detector: FSM restored: state=DetectorState.NORMAL
+2026-08-17 14:30:41 [INFO] detector: AutoLearner restored: 0 cycle(s)
+2026-08-17 14:30:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevator_configs/B.json
+2026-08-17 14:30:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/settings.json
+2026-08-17 14:30:41 [INFO] detector: Listening for elevator events...
+2026-08-17 14:30:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://test-94822-default-rtdb.firebaseio.com/elevators/B.json
+2026-08-17 14:31:42 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'DISPLAY_NAME', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'SHABBAT_OVERRIDE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
