@@ -1,0 +1,962 @@
+2026-08-26 01:19:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 01:19:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 7749s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 04:22:09 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-26 05:59:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 05:59:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 16756s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 08:12:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 08:12:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 7942s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 08:14:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 08:58:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 08:58:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2669s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 09:02:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 10:21:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 10:21:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4846s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 10:22:10 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-26 10:36:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 10:36:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 928s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 10:50:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 10:50:51 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 782s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 11:00:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 561s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 11:01:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 11:02:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 11:12:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 11:19:29 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 11:23:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 11:29:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 644s, up_stops=['4'], down_stops=['8']
+2026-08-26 11:29:12 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 11:29:12 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 100%, ירידה 17%); 2 חריגות טיימינג
+2026-08-26 11:35:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 11:38:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 483s, up_stops=[], down_stops=[]
+2026-08-26 11:38:15 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 11:38:15 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 11:38:15 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 11:38:15 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-26 11:49:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 11:49:44 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 807s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 11:51:49 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 11:51:49 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 11:51:49 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 12:21:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 12:21:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1815s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 12:27:01 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 237s, up_stops=['8', '11'], down_stops=[]
+2026-08-26 12:27:01 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 12:27:01 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11', '8']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 2 חריגות טיימינג
+2026-08-26 13:10:34 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-26 13:10:36 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-26 13:12:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 13:12:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2819s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 13:22:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 13:22:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 558s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-26 13:34:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 13:34:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 701s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-26 13:53:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 13:53:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1110s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 13:54:36 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 13:54:36 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 13:57:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 14:00:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 14:22:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 14:22:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1371s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 14:23:49 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 14:26:12 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-26 14:49:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 14:49:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1599s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 14:52:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 15:42:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 15:42:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3081s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 15:57:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 15:57:39 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 871s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-26 16:18:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 16:18:39 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1188s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-26 16:20:41 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/A.json): ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+2026-08-26 16:20:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-26 16:22:11 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-26 16:22:13 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-26 16:27:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 454s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 16:32:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 16:34:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 16:41:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 369s, up_stops=['10'], down_stops=[]
+2026-08-26 16:41:01 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 16:41:01 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-26 16:48:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 16:48:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 514s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 16:49:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 16:49:47 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 16:49:47 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 17:05:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 17:05:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 954s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 17:06:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 17:10:25 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 163s, up_stops=['11'], down_stops=[]
+2026-08-26 17:10:25 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 17:10:25 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-26 17:26:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 17:26:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1066s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 17:28:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 17:28:16 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 17:28:16 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 18:14:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 18:14:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2787s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 18:16:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 18:35:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 18:35:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 808s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 18:45:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 18:45:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 593s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 18:52:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 19:17:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 19:17:08 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1612s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 19:22:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-26 20:37:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 20:37:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4577s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 20:39:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 92s, up_stops=['6'], down_stops=[]
+2026-08-26 20:39:28 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-26 20:39:28 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['6']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-26 21:51:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 21:51:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4400s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 22:10:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 22:10:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1084s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 22:10:50 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-26 22:10:50 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-26 22:22:12 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-26 22:41:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 22:41:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1781s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 23:30:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-26 23:30:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2917s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-26 23:53:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-26 23:55:25 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-27 00:13:25 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/A.json): ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+2026-08-27 00:13:26 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-27 00:14:56 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-27 03:02:44 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-27 03:04:14 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-27 04:22:13 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-27 06:38:40 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-27 06:58:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 06:58:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 26870s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 07:04:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 08:36:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 08:36:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5660s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 08:53:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 08:53:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1004s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 08:58:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 09:30:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 09:30:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2059s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 09:32:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 09:38:20 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 344s, up_stops=['11'], down_stops=[]
+2026-08-27 09:38:20 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 09:38:20 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-27 09:42:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 09:43:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 09:43:24 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 09:43:24 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 09:50:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 509s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 09:54:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 10:22:14 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-27 10:37:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 10:37:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2770s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 10:41:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 10:46:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 10:52:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 10:52:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 479s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 10:55:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 11:17:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 11:17:49 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1436s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 11:20:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 11:28:04 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 512s, up_stops=['11'], down_stops=[]
+2026-08-27 11:28:04 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 11:28:04 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-27 11:28:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 11:29:58 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 111s, up_stops=['11'], down_stops=[]
+2026-08-27 11:29:58 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 11:29:58 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 11:29:58 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 11:29:58 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-27 12:12:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 12:12:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2592s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 12:45:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 12:45:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1607s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 13:12:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 13:12:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1571s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 13:14:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 13:14:54 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 13:14:54 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 13:21:46 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 383s, up_stops=['11'], down_stops=[]
+2026-08-27 13:21:46 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 13:21:46 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-27 13:45:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 13:45:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1565s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 13:53:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 488s, up_stops=['8', '11'], down_stops=[]
+2026-08-27 13:53:59 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 13:53:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 13:53:59 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 13:53:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11', '8']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-27 14:01:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 14:01:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 463s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 14:09:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 479s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 14:16:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 14:18:42 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-27 14:24:22 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-27 14:34:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 14:34:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 707s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 14:37:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 14:37:15 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 14:37:15 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 15:42:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 15:42:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4052s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 16:07:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 16:07:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1470s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 16:22:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 16:22:16 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-27 16:53:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 16:53:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1888s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 17:07:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 17:07:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 793s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 17:10:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 74s, up_stops=[], down_stops=[]
+2026-08-27 17:10:53 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 17:10:53 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-27 17:23:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 17:23:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 846s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 17:24:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 17:24:58 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 17:24:58 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 18:08:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 18:08:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2653s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 18:13:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 182s, up_stops=[], down_stops=['10']
+2026-08-27 18:13:43 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 18:13:43 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 17%); 1 חריגות טיימינג
+2026-08-27 18:24:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 18:24:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 796s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 19:11:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 19:11:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2784s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 19:12:17 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 19:12:17 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 19:15:11 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 149s, up_stops=[], down_stops=[]
+2026-08-27 19:15:11 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 19:15:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-27 19:29:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 19:29:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 734s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 19:41:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 19:41:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 689s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 19:41:46 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 19:41:46 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 19:47:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 19:50:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 19:51:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 20:16:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 20:16:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1521s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 20:20:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 109s, up_stops=[], down_stops=[]
+2026-08-27 20:20:17 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 20:20:17 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-27 20:24:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 295s, up_stops=[], down_stops=['10']
+2026-08-27 20:24:31 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 20:24:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 20:24:31 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 20:24:31 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 17%); 1 חריגות טיימינג
+2026-08-27 20:26:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 155s, up_stops=[], down_stops=[]
+2026-08-27 20:26:36 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 20:26:36 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 20:26:36 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 20:26:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-27 20:27:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 20:47:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 20:47:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1170s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 21:04:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 21:04:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 823s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-27 21:05:41 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 21:05:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 21:23:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 21:23:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 997s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 21:26:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 21:38:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 21:38:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 765s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 22:03:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 22:03:56 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1489s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 22:09:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-27 22:22:17 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-27 22:30:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 22:30:08 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1053s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 22:58:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 22:58:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1548s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 23:16:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 23:16:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1051s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 23:20:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 189s, up_stops=['4'], down_stops=['4']
+2026-08-27 23:20:00 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 23:20:00 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בירידה: ['4']; כיסוי קומות חלקי (עלייה 100%, ירידה 0%); 1 חריגות טיימינג
+2026-08-27 23:40:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-27 23:40:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1237s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-27 23:43:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 74s, up_stops=[], down_stops=[]
+2026-08-27 23:43:22 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-27 23:43:22 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-27 23:43:22 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-27 23:43:22 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-28 00:01:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 00:01:52 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1224s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 00:03:27 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 68s, up_stops=['11'], down_stops=[]
+2026-08-28 00:03:27 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 00:03:27 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 00:03:27 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 00:03:27 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 00:09:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 00:09:23 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 00:09:23 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 00:22:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 00:22:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 763s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 04:22:18 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-28 04:59:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 04:59:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 16555s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 05:23:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 05:23:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1376s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 05:38:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 05:38:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 827s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 06:01:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 06:01:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1327s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 06:03:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 73s, up_stops=[], down_stops=[]
+2026-08-28 06:03:41 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 06:03:41 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-28 06:39:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 06:39:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2228s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 06:42:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 06:42:22 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 06:42:22 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 06:49:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 06:50:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 588s, up_stops=[], down_stops=[]
+2026-08-28 06:50:50 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 06:50:50 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-28 07:47:06 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-28 07:50:47 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-28 07:50:48 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-28 07:58:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 07:58:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4014s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 07:58:33 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 07:58:33 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 08:13:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 08:13:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 887s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 09:03:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 09:03:31 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2965s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 09:35:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-28 10:22:19 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-28 10:27:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 10:27:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5012s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 10:30:31 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 98s, up_stops=['11'], down_stops=[]
+2026-08-28 10:30:31 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 10:30:31 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 10:45:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 10:45:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 881s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 10:47:43 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 10:47:43 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 10:58:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 10:58:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 735s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 10:59:32 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 11:08:10 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 11:08:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 11:14:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 296s, up_stops=['10'], down_stops=[]
+2026-08-28 11:14:31 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 11:14:31 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 11:18:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 11:20:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 11:20:40 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 11:20:40 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 12:03:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 12:03:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2604s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 12:04:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 12:24:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 12:24:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1044s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 12:27:28 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-28 12:30:01 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-28 12:38:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 12:38:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 605s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 12:42:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 12:50:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 12:50:26 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 647s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 12:52:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 70s, up_stops=[], down_stops=[]
+2026-08-28 12:52:30 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 12:52:30 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-28 12:54:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 12:54:46 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 12:54:46 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 12:59:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 13:00:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 13:02:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 13:11:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 13:11:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 528s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 13:20:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 13:35:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 13:35:51 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 965s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 13:43:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 450s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 13:45:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 13:48:26 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 187s, up_stops=['11'], down_stops=[]
+2026-08-28 13:48:26 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 13:48:26 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 13:51:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 13:51:15 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 13:51:15 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 14:07:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 14:07:14 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1043s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 14:16:18 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 498s, up_stops=['8', '11'], down_stops=['8']
+2026-08-28 14:16:18 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 14:16:18 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11', '8']; כיסוי קומות חלקי (עלייה 0%, ירידה 17%); 2 חריגות טיימינג
+2026-08-28 14:32:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 14:32:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 973s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 14:33:48 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 14:33:48 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 14:39:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 14:42:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 220s, up_stops=['11'], down_stops=[]
+2026-08-28 14:42:59 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 14:42:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 14:43:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 14:48:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 14:48:59 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 14:48:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 14:54:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 14:55:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 15:01:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 15:04:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 164s, up_stops=[], down_stops=[]
+2026-08-28 15:04:51 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 15:04:51 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-28 15:07:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 15:28:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 15:28:49 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1278s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 15:44:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 15:44:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 900s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-28 15:46:43 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 15:46:43 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 16:14:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 16:14:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1489s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 16:22:20 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-28 16:24:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 16:29:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 16:39:20 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 886s, up_stops=['10', '11'], down_stops=[]
+2026-08-28 16:39:20 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 16:39:20 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 16:43:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 16:44:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 16:44:38 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 16:44:38 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 16:47:43 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 94s, up_stops=['11'], down_stops=[]
+2026-08-28 16:47:43 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-28 16:47:43 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-28 16:52:17 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 16:52:17 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-28 16:52:17 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-28 16:58:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 16:58:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 475s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 16:59:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-28 17:24:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 17:24:21 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1506s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 17:39:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 17:39:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 884s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 17:48:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 485s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 17:49:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 18:04:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 18:04:04 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 877s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 18:15:55 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-28 18:17:25 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-28 18:49:20 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := True | סיבה: כניסה למצב שבת לפי לוח זמנים - 20 דק' לפני הדלקת נרות
+2026-08-28 18:49:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-08-28 18:50:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 18:50:04 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2694s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 19:04:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-28 19:04:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 846s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-28 22:22:22 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-29 00:10:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 00:10:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 18316s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 02:00:55 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-29 02:02:25 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-29 04:02:05 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-08-29 04:22:23 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-29 04:37:11 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-29 04:37:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-29 05:34:31 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 4s
+2026-08-29 05:34:34 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-29 08:18:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 08:18:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 29196s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 08:19:43 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 69s, up_stops=['11'], down_stops=[]
+2026-08-29 08:19:43 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-29 08:19:43 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-29 10:22:24 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-29 16:22:25 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-29 20:05:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 20:05:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 42371s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 20:13:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 20:13:20 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-29 20:13:20 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-29 20:16:25 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := False | סיבה: יציאה ממצב שבת לפי לוח זמנים - 30 דק' אחרי הבדלה
+2026-08-29 20:17:26 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-08-29 20:23:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 20:23:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 694s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 20:36:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 20:36:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 765s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 20:40:52 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-29 20:53:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 20:53:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 861s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-29 20:56:53 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:00:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:04:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 21:05:53 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:14:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 21:14:56 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 571s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 21:18:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:28:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 21:28:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 764s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-29 21:34:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:36:29 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:43:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 21:44:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-29 21:55:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 21:55:51 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 654s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-29 21:58:41 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-29 22:01:19 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-29 22:03:53 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-29 22:22:27 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-29 23:13:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 23:13:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4240s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-29 23:29:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-29 23:29:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 996s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 00:28:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 00:28:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3430s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 01:23:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 04:22:28 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-30 04:30:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 04:30:19 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 11130s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 05:59:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 05:59:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5321s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 07:13:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 07:13:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4424s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 07:16:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 07:32:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 07:32:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1041s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 07:35:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 73s, up_stops=[], down_stops=[]
+2026-08-30 07:35:24 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 07:35:24 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 08:01:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 08:01:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1679s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 08:52:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 08:52:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3022s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 08:53:24 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 08:53:24 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 09:07:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 09:07:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 900s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 09:10:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 73s, up_stops=[], down_stops=[]
+2026-08-30 09:10:06 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 09:10:06 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 09:27:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 09:27:44 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1145s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 09:29:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 73s, up_stops=[], down_stops=[]
+2026-08-30 09:29:54 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 09:29:54 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 09:29:54 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 09:29:54 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 10:22:29 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-30 10:45:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 10:45:26 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4592s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 11:30:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 11:30:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2707s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-30 11:50:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 11:50:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1136s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-30 11:53:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 11:53:19 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 11:53:19 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 12:21:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 12:21:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1812s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 12:24:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 12:32:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 12:32:41 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 607s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 12:34:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 70s, up_stops=[], down_stops=[]
+2026-08-30 12:34:48 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 12:34:48 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 12:41:41 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-30 12:41:42 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-30 12:48:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 12:48:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 859s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 12:51:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 70s, up_stops=[], down_stops=[]
+2026-08-30 12:51:47 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 12:51:47 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 12:51:47 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 12:51:47 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 14:19:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 14:19:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5420s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 14:29:11 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 484s, up_stops=['10', '11'], down_stops=[]
+2026-08-30 14:29:11 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 14:29:11 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 14:29:11 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 14:29:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10', '11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-30 16:00:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 16:00:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5560s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 16:13:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 16:13:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 740s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 16:14:06 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 16:14:06 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 16:22:30 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-30 16:25:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 16:25:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 615s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 17:08:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 17:08:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2576s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 17:10:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 17:53:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 17:53:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2656s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 17:56:48 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 67s, up_stops=['11'], down_stops=[]
+2026-08-30 17:56:48 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 17:56:48 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-30 18:01:54 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 307s, up_stops=['11'], down_stops=[]
+2026-08-30 18:01:54 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 18:01:54 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 18:01:54 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 18:01:54 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-30 18:03:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 18:12:19 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 484s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 18:13:06 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 18:13:06 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 18:13:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 18:15:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 18:35:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 18:35:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1244s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 18:36:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 18:43:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 427s, up_stops=[], down_stops=[]
+2026-08-30 18:43:36 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 18:43:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-30 18:45:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 18:52:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 18:52:59 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 18:52:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 19:29:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 19:29:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2187s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 20:04:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 20:04:52 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1700s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 20:09:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 137s, up_stops=['10'], down_stops=[]
+2026-08-30 20:09:27 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 20:09:27 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-30 20:34:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 20:34:26 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1613s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-30 20:41:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-30 20:41:50 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-30 20:41:50 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-30 20:46:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 20:53:26 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 637s, up_stops=['11'], down_stops=[]
+2026-08-30 20:53:26 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-30 20:53:26 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-30 21:30:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 21:30:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2037s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-30 21:32:57 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-30 22:08:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-30 22:08:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2186s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-30 22:22:32 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-31 03:37:38 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-08-31 03:37:40 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-08-31 04:22:33 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-31 05:59:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 05:59:39 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 28256s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 06:01:58 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 06:01:58 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 07:31:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 07:31:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 5490s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 07:35:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 71s, up_stops=[], down_stops=[]
+2026-08-31 07:35:09 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 07:35:09 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 07:57:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 07:57:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1457s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 07:59:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 07:59:27 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 07:59:27 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 08:11:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 08:11:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 803s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 08:14:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 08:22:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 08:22:08 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 578s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 08:53:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 08:53:28 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1862s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 09:14:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 09:14:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1224s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 09:23:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 553s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 09:24:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 09:35:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 09:35:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 644s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 10:00:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 10:00:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1391s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 10:06:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 10:09:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 181s, up_stops=[], down_stops=[]
+2026-08-31 10:09:25 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 10:09:25 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 10:22:34 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-31 10:52:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 10:52:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2645s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 10:57:10 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 285s, up_stops=['11'], down_stops=[]
+2026-08-31 10:57:10 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 10:57:10 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 10:57:10 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 10:57:10 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-31 10:59:06 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 97s, up_stops=['11'], down_stops=[]
+2026-08-31 10:59:06 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 10:59:06 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 10:59:06 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 10:59:06 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-31 11:03:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 11:04:27 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 305s, up_stops=['11'], down_stops=[]
+2026-08-31 11:04:27 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 11:04:27 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 11:04:27 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 11:04:27 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-31 11:07:38 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 220s, up_stops=['11'], down_stops=[]
+2026-08-31 11:07:38 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 11:07:38 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 11:07:38 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 11:07:38 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-31 11:20:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 11:20:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 712s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 11:35:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 11:35:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 844s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 11:37:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 75s, up_stops=[], down_stops=[]
+2026-08-31 11:37:41 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 11:37:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 11:37:41 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 11:37:41 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 12:03:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1787932200.0 havdalah=1788022740.0
+2026-08-31 12:03:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1635s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 12:24:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 12:24:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1245s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 12:28:31 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 12:28:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 12:35:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 12:38:57 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-31 12:43:07 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-31 12:44:53 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-31 12:45:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1031s, up_stops=['4', '10', '4', '10', '4'], down_stops=[]
+2026-08-31 12:45:44 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 12:45:44 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 100%, ירידה 0%); קפיצות-אחורה (עלייה 2, ירידה 0); חזרות על קומות (עלייה 3, ירידה 0); 2 חריגות טיימינג
+2026-08-31 12:46:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 12:53:33 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-08-31 13:12:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 13:12:24 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1194s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 13:14:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 13:14:00 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 13:14:00 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 14:14:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 14:14:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3723s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 15:09:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 15:09:14 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3259s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 15:40:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 15:40:56 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1881s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 15:45:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 16:22:35 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-31 16:22:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 16:22:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2123s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 16:29:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 379s, up_stops=[], down_stops=['10']
+2026-08-31 16:29:22 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 16:29:22 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 17%); 1 חריגות טיימינג
+2026-08-31 16:35:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 16:37:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 415s, up_stops=[], down_stops=[]
+2026-08-31 16:37:19 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 16:37:19 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 16:37:19 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 16:37:19 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 16:53:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 16:53:40 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 849s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 16:54:31 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 16:54:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 16:59:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 238s, up_stops=['10'], down_stops=['10']
+2026-08-31 16:59:22 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 16:59:22 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 17%); 1 חריגות טיימינג
+2026-08-31 17:03:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 17:06:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 17:06:05 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 17:06:05 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 17:10:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 17:14:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 17:19:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 618s, up_stops=[], down_stops=[]
+2026-08-31 17:19:15 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 17:19:15 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 17:21:46 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 117s, up_stops=['10'], down_stops=[]
+2026-08-31 17:21:46 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 17:21:46 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 17:21:46 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 17:21:46 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-08-31 17:34:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 17:34:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 803s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 17:43:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 17:43:36 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 17:43:36 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 18:05:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 18:05:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1406s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 18:13:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 18:28:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 18:28:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 967s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 18:29:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 18:43:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-08-31 18:45:03 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-08-31 18:54:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 18:54:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1544s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 18:58:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 74s, up_stops=[], down_stops=[]
+2026-08-31 18:58:36 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-08-31 18:58:36 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-08-31 19:25:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 19:25:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1740s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 19:26:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 19:26:54 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-08-31 19:26:54 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-08-31 19:31:32 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 19:35:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 19:36:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-08-31 19:51:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 19:51:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 870s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 20:15:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 20:15:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1440s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 20:25:08 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 552s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 20:26:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 20:45:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 20:45:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1200s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 20:53:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 456s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 21:04:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 21:04:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 586s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 21:28:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 21:28:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1457s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 21:42:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 21:42:44 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 785s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 22:09:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 22:09:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1589s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 22:22:36 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-08-31 22:30:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 22:30:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1209s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 22:43:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 22:43:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 683s - resetting cycle (was in _Phase.LEG_ONE)
+2026-08-31 22:51:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 458s - resetting cycle (was in _Phase.LEG_TWO)
+2026-08-31 23:50:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-08-31 23:50:33 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3504s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 01:12:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 01:12:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4707s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 01:13:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 04:22:38 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-01 06:36:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 06:36:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 19380s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 06:38:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 71s, up_stops=[], down_stops=[]
+2026-09-01 06:38:20 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 06:38:20 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 07:33:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 07:33:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3357s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 07:49:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 07:49:31 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 952s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 08:11:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 08:11:41 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1283s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 08:14:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 08:14:41 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 08:14:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 08:33:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 08:33:08 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1220s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 08:36:11 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 70s, up_stops=[], down_stops=[]
+2026-09-01 08:36:11 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 08:36:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 08:41:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 08:41:55 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 08:41:55 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 09:02:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 09:02:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1367s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 09:06:28 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 09:23:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 09:23:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 992s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 09:45:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 09:45:49 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1337s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 09:48:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 10:17:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 10:17:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1846s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 10:22:39 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-01 10:53:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 10:53:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2108s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 11:24:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 11:24:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1769s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 12:00:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 12:00:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2139s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 12:02:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 12:36:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 12:36:51 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2077s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 12:38:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 71s, up_stops=[], down_stops=[]
+2026-09-01 12:38:44 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 12:38:44 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 12:43:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 256s, up_stops=[], down_stops=[]
+2026-09-01 12:43:45 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 12:43:45 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 12:43:45 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 12:43:45 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 13:11:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 13:11:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1772s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 13:18:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 334s, up_stops=[], down_stops=[]
+2026-09-01 13:18:21 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 13:18:21 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 13:18:21 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 13:18:21 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 13:25:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 13:25:21 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 478s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 13:28:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 71s, up_stops=[], down_stops=[]
+2026-09-01 13:28:31 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 13:28:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 13:28:31 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 13:28:31 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 13:37:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 13:37:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 634s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 13:39:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 70s, up_stops=[], down_stops=[]
+2026-09-01 13:39:14 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 13:39:14 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 13:39:14 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 13:39:14 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 14:37:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 14:37:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3418s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 14:43:22 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-09-01 14:45:02 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-09-01 14:46:13 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-09-01 16:02:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 16:02:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4591s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 16:22:40 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-01 17:14:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 17:14:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4176s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 17:17:12 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 17:17:12 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 18:02:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 18:02:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2845s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 18:21:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 18:21:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1127s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 18:32:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 18:32:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 595s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 18:36:54 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-09-01 18:45:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 18:45:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 614s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 18:47:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 123s, up_stops=['10'], down_stops=[]
+2026-09-01 18:47:41 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 18:47:41 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-09-01 19:07:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 19:07:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1208s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 19:15:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 484s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 19:17:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 73s, up_stops=[], down_stops=[]
+2026-09-01 19:17:58 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 19:17:58 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 19:17:58 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 19:17:58 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 19:24:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 19:32:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 501s - resetting cycle (was in _Phase.LEG_TWO)
+2026-09-01 20:23:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 20:23:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3012s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 20:26:07 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 20:26:07 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 20:41:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 20:41:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 991s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 20:42:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 21:06:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 21:06:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1456s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 21:09:26 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-01 21:27:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 21:27:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1051s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 21:57:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 21:57:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1813s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 22:00:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 75s, up_stops=[], down_stops=[]
+2026-09-01 22:00:03 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 22:00:03 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-01 22:20:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 22:20:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1299s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 22:22:39 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 69s, up_stops=['11'], down_stops=[]
+2026-09-01 22:22:39 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 22:22:39 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 22:22:39 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 22:22:39 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-09-01 22:22:41 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-01 22:33:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1788536460.0 havdalah=1788627000.0
+2026-09-01 22:33:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 618s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-01 22:34:03 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-01 22:34:03 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-01 22:42:05 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 481s, up_stops=['11'], down_stops=[]
+2026-09-01 22:42:05 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-01 22:42:05 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
