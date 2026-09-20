@@ -1,0 +1,891 @@
+2026-09-09 00:39:35 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-09 00:39:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 01:01:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 01:03:13 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-09 01:05:31 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-09 03:36:06 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 3s
+2026-09-09 03:36:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 03:36:09 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 03:37:38 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-09 03:41:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 03:42:37 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-09 04:17:58 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 8s
+2026-09-09 04:18:06 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 04:24:29 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-09 08:30:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 08:30:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 32419s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 08:33:58 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-09 08:33:58 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-09 08:33:58 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-09 09:02:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 09:02:49 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1604s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 09:36:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 09:36:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1933s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 10:24:31 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-09 10:49:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 10:49:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 4374s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 11:00:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 11:14:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 11:14:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 517s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 11:29:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 11:29:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 942s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 11:31:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-09 13:35:00 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-09 15:25:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 15:25:04 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 14058s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 15:28:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 108s, up_stops=[], down_stops=[]
+2026-09-09 15:28:49 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-09 15:28:49 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-09 15:34:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 387s, up_stops=[], down_stops=[]
+2026-09-09 15:34:17 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-09 15:34:17 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-09 15:34:17 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-09 15:34:17 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-09 16:24:32 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-09 19:05:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 19:05:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 12722s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 19:18:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 19:18:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 805s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 19:21:17 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-09 19:21:17 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-09 21:38:21 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-09 21:38:22 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-09 21:38:22 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 21:38:23 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 21:39:52 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-09 21:44:22 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-09 21:44:23 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-09 21:44:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 21:44:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 21:45:54 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-09 21:55:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-09 21:55:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 9359s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-09 22:24:33 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-09 23:06:54 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-09-09 23:06:54 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/A.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-09-09 23:06:55 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-09 23:06:56 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 23:07:02 [WARNING] shabbat_detector.firebase_client: Elevator stream error: HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-09-09 23:07:02 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-09 23:07:04 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-09 23:07:56 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/A.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Read timed out.
+2026-09-09 23:07:59 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-09 23:09:29 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-10 01:19:05 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-10 02:15:24 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-10 04:24:34 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-10 05:09:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-10 05:09:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 25958s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 05:37:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-10 05:37:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1660s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 05:39:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-10 10:24:35 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-10 11:23:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-10 11:23:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 20737s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 11:25:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-10 12:19:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-10 12:19:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3133s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 12:38:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1788627000.0
+2026-09-10 16:24:36 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-10 17:11:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-10 17:11:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 16354s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 18:10:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-10 18:10:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3519s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 20:26:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-10 20:26:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 8113s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-10 22:24:38 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-11 00:49:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 00:49:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 15773s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 02:17:37 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-11 03:01:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-11 03:01:49 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-11 03:01:53 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-11 03:01:54 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-11 03:03:20 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-11 03:10:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-11 04:24:39 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-11 05:52:10 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 3s
+2026-09-11 05:52:13 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-11 09:46:39 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 5s
+2026-09-11 09:46:44 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-11 10:24:40 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-11 15:14:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 15:14:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 51858s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 16:12:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 16:12:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3458s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 16:23:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 16:23:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 581s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 16:24:41 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-11 18:05:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 18:05:02 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 6002s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 18:26:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 18:26:48 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1257s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-11 18:31:11 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := True | סיבה: כניסה למצב שבת לפי לוח זמנים - 20 דק' לפני הדלקת נרות
+2026-09-11 18:31:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-09-11 18:32:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 309s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 18:37:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 18:40:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 18:47:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 18:47:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 18:54:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 18:58:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:00:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:07:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:08:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:15:46 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:19:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:22:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:29:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:29:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:36:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:40:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:42:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 425s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:50:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 19:50:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 19:57:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:01:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:04:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:11:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:11:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:18:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:22:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:25:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:32:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:32:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:39:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:43:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:45:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:47:10 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-11 20:47:12 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-11 20:53:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 20:54:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 20:59:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:04:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 21:06:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:15:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:15:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 21:20:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:25:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 21:27:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:36:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:36:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 21:42:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:46:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 21:49:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:56:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 21:57:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:04:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:07:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:11:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:17:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:18:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:24:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:24:42 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-11 22:28:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:32:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:38:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:39:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:44:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:49:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 22:51:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 22:59:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:00:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:05:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:10:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:14:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:21:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:21:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:27:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:31:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:34:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:41:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:42:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:49:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-11 23:52:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-11 23:56:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:03:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:03:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:09:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:13:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:16:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:23:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:24:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:30:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:35:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:37:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:43:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:45:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:52:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 00:55:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 00:58:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:04:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:06:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 01:13:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:17:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 01:18:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:27:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:27:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 01:32:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:38:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 01:41:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:48:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:48:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 01:54:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 01:59:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 02:01:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:09:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:09:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 02:15:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:19:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 02:22:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:30:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:30:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 02:37:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 02:41:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 02:43:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 04:24:44 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-12 05:05:13 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-12 05:05:15 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-12 05:56:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 05:56:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 11657s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-12 06:03:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 309s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:07:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 06:10:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:17:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:17:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 06:24:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:28:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 06:30:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:38:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:39:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 06:45:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 06:49:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 06:52:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:00:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:00:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:06:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:10:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:12:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:21:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:21:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:27:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:31:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:33:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:41:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:42:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:48:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 07:52:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 07:55:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:01:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:03:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:10:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:13:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:15:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:24:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:24:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:29:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:35:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:37:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:45:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:45:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:50:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 08:56:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 08:58:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:06:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:06:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 09:12:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:17:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 09:19:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:26:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:27:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 09:33:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:38:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 09:40:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:48:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:48:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 09:54:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 09:59:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:02:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:08:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:10:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:15:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:20:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:23:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:24:45 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-12 10:30:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:30:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:37:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:41:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:44:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:51:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 10:51:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 10:57:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:02:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:04:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:12:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:12:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:19:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:23:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:25:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:32:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:33:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:40:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:44:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:46:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:51:04 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-12 11:51:05 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-12 11:53:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 11:54:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 11:58:03 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-12 11:59:34 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-12 12:00:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:05:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 12:07:46 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:14:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:15:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 12:22:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:25:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 12:29:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:34:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-12 12:35:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:36:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 12:43:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:47:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 12:49:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:57:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 12:57:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:04:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:08:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:11:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:18:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:18:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:24:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:29:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:32:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:39:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:39:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:45:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 13:50:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 13:53:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:00:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:00:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:07:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:11:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:14:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 424s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:22:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:22:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:28:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:32:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:34:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:42:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:43:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:49:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 14:53:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 14:55:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:04:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:04:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:04:36 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-12 15:06:06 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-12 15:10:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:15:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:17:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:23:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:24:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:25:07 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-12 15:25:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-12 15:25:09 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-12 15:30:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 344s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:34:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:37:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:43:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:45:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:50:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 15:55:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 15:58:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:04:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:06:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 16:12:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:16:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 16:19:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:24:46 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-12 16:27:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:27:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 16:32:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:37:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 16:40:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:48:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:48:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 16:53:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 16:58:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:02:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:07:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:09:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:15:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:20:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:22:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:29:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:30:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:36:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:36:55 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-09-12 17:36:55 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT (masked by override=auto, source=schedule) | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 100%, נסיעה רצופה (0 קפיצות-אחורה), משך 421.0s (0.73× הצפוי 574.0s), 1 חריגות טיימינג
+2026-09-12 17:40:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:44:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:50:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 17:50:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 17:57:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:00:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:04:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:10:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:10:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:18:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:20:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:25:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:30:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:32:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:38:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:40:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:46:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 18:50:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 18:53:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:00:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:00:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:08:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:10:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:14:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:20:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:21:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:29:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:30:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:35:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:40:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:43:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:50:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 19:50:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 19:57:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:00:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:04:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:10:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:10:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:18:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:20:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:24:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:30:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:32:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:38:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:40:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:46:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 20:50:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 20:53:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:00:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:00:29 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:07:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:10:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:13:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:20:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:20:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:27:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:30:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:34:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:40:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:42:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:48:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 21:50:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 21:56:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:00:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:03:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:10:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:10:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:17:18 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:20:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:23:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:25:03 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-12 22:30:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:31:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:38:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:40:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:44:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:50:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 22:52:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 22:59:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:00:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:05:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:10:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:13:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:19:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:20:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:27:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 426s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:30:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:33:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:40:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:41:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:48:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-12 23:50:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-12 23:55:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:00:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:02:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:09:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:10:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:16:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:20:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:23:40 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:29:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:30:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:37:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:40:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:45:10 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:50:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 00:51:47 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 00:57:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:00:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:05:18 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:07:42 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-13 01:09:12 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-13 01:10:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:11:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 423s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:19:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:20:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:25:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:30:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:34:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:39:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:40:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:46:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 01:50:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 01:55:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:00:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:00:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:07:57 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:10:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:16:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:20:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:21:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:30:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:30:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:36:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:40:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:44:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 02:50:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 02:59:47 [INFO] detector: Watchdog: no-report violation
+2026-09-13 03:00:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 03:06:48 [INFO] detector: Watchdog: missed-cycle violation (24m since last match)
+2026-09-13 03:10:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 03:14:48 [INFO] detector: Watchdog: no-report violation
+2026-09-13 03:14:48 [INFO] shabbat_detector.fsm: [A] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-09-13 03:14:48 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT (masked by override=auto, source=schedule) | סיבה: 3 חריגות תוך 20 דקות — ממתין לאישור יציאה
+2026-09-13 03:20:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 03:29:49 [INFO] detector: Watchdog: no-report violation
+2026-09-13 03:30:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 03:30:49 [INFO] detector: Watchdog: missed-cycle violation (48m since last match)
+2026-09-13 03:40:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 03:44:50 [INFO] detector: Watchdog: no-report violation
+2026-09-13 03:44:50 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-09-13 03:44:50 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL (masked by override=auto, source=schedule) | סיבה: יציאה ממצב שבת — 3 חריגות תוך 20 דקות
+2026-09-13 03:52:30 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-13 03:52:32 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevators/A.json
+2026-09-13 04:25:21 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-13 05:56:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 05:56:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 11658s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-13 06:03:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 308s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:03:51 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-13 06:03:51 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-13 06:03:51 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.SHABBAT
+2026-09-13 06:03:51 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> SHABBAT (masked by override=auto, source=schedule) | סיבה: נכנס למצב שבת — מחזור תאם הגדרות: כיסוי עלייה 100% / ירידה 100%, נסיעה רצופה (0 קפיצות-אחורה), משך 308.0s (0.54× הצפוי 574.0s), 1 חריגות טיימינג
+2026-09-13 06:06:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:10:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:16:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:17:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:23:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:26:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:31:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:36:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:38:34 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:45:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:46:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:52:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 06:56:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 06:58:37 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:06:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:06:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 07:13:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:16:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 07:20:41 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:26:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 07:28:05 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:33:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:36:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 07:40:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:46:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 07:48:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:55:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 07:56:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:01:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:06:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:09:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:15:50 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:16:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:22:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:26:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:30:52 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:36:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:37:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:45:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:47:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:51:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 08:57:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 08:59:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:06:20 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:07:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 09:12:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:17:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 09:20:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:27:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 09:27:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:32:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:37:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 09:41:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:47:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:47:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 09:54:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 09:57:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:02:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:07:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:09:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:16:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:17:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:22:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:25:35 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-13 10:27:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:29:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:36:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:37:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:43:35 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:47:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:50:07 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 10:57:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 10:57:38 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:04:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:07:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 11:12:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:17:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 11:19:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:26:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:27:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 11:32:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:37:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 11:40:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:47:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 11:47:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:53:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 11:57:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:00:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:07:11 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:07:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:15:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:17:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:20:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:27:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:29:22 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:36:23 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:37:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:43:48 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:47:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:50:49 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 12:57:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 12:57:28 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:03:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:07:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 13:10:59 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:17:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 13:17:30 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:25:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:27:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 13:32:02 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:37:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 13:39:32 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:46:54 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:47:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 13:53:33 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 13:57:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:00:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:07:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:07:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:14:04 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:17:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:20:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:27:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:29:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:34:36 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:37:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:42:06 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:47:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 14:48:39 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:57:03 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 14:57:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:03:11 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:07:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:10:11 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:17:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:17:42 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:24:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:27:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:30:43 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:37:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:37:44 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:46:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:47:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:53:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 15:57:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 15:59:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:07:08 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:07:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 16:13:45 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:17:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 16:20:15 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:25:56 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-13 16:27:17 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:27:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 16:35:12 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:37:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 16:42:09 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:47:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 16:48:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:55:19 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 16:57:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:03:13 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:07:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:08:51 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:16:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:17:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:23:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:27:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:31:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:36:53 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:37:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:44:24 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:47:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:52:16 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 17:57:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 17:57:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:05:25 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:07:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 18:11:55 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:17:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 18:19:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:27:18 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:27:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 18:33:26 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:37:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 18:40:56 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:46:58 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:47:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 18:54:27 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 420s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 18:57:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:02:21 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 19:07:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:08:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 421s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 19:16:00 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 19:17:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:23:01 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 422s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 19:27:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:29:31 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 419s, up_stops=['4'], down_stops=['11', '10', '9', '8', '6', '5']
+2026-09-13 19:37:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:44:36 [INFO] detector: Watchdog: no-report violation
+2026-09-13 19:47:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:52:37 [INFO] detector: Watchdog: missed-cycle violation (24m since last match)
+2026-09-13 19:56:07 [INFO] detector: SCHEDULE TRANSITION: SHABBAT_ACTIVE := False | סיבה: יציאה ממצב שבת לפי לוח זמנים - 30 דק' אחרי הבדלה
+2026-09-13 19:57:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 19:58:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_ACTIVE', 'SHABBAT_DETECTOR'])
+2026-09-13 19:59:38 [INFO] detector: Watchdog: no-report violation
+2026-09-13 19:59:38 [INFO] shabbat_detector.fsm: [A] DetectorState.SHABBAT → DetectorState.CANDIDATE_EXIT
+2026-09-13 19:59:38 [INFO] detector: SHABBAT TRANSITION SHABBAT -> CANDIDATE_EXIT (masked by override=auto, source=schedule) | סיבה: 3 חריגות תוך 20 דקות — ממתין לאישור יציאה
+2026-09-13 20:07:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 20:14:38 [INFO] detector: Watchdog: no-report violation
+2026-09-13 20:16:38 [INFO] detector: Watchdog: missed-cycle violation (48m since last match)
+2026-09-13 20:17:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 20:21:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3156s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-13 20:27:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 20:37:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 20:37:40 [INFO] detector: Watchdog: no-report violation
+2026-09-13 20:37:40 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_EXIT → DetectorState.NORMAL
+2026-09-13 20:37:40 [INFO] detector: SHABBAT TRANSITION CANDIDATE_EXIT -> NORMAL (masked by override=auto, source=schedule) | סיבה: יציאה ממצב שבת — פסק זמן ב-CANDIDATE_EXIT
+2026-09-13 22:26:11 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 6 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-13 22:34:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 22:34:33 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 7985s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-13 22:35:24 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-13 22:35:24 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-13 23:10:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-13 23:10:13 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2114s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-13 23:12:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-14 04:26:12 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 3 start(s), 4 end(s) (geo=294071, diaspora=True)
+2026-09-14 06:29:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 06:29:19 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 26213s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 10:26:13 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 3 start(s), 4 end(s) (geo=294071, diaspora=True)
+2026-09-14 11:49:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 11:49:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 19206s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 11:52:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-14 12:54:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 12:54:25 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3823s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 12:55:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-14 13:11:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 13:11:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 643s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 14:05:29 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 14:05:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3228s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 16:26:14 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 3 start(s), 4 end(s) (geo=294071, diaspora=True)
+2026-09-14 17:04:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 17:04:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 10741s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 17:19:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 17:19:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 884s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 17:24:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-14 19:52:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 19:52:15 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 8967s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 19:55:44 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-14 20:13:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 20:13:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 972s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 20:51:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-14 20:51:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 2216s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-14 22:05:29 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-14 22:06:59 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-14 22:26:16 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 3 start(s), 4 end(s) (geo=294071, diaspora=True)
+2026-09-15 00:05:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-15 00:05:31 [WARNING] shabbat_detector.firebase_client: Background stream error (/elevator_configs/A.json): HTTPSConnectionPool(host='nitzaelev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /elevator_configs/A.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)')))
+2026-09-15 00:05:35 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-15 00:07:05 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-15 01:22:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-15 01:23:37 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-15 04:26:17 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-15 07:00:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-15 07:31:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 07:31:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 38028s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 07:33:17 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-15 10:26:18 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-15 11:39:03 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/A.json
+2026-09-15 11:40:33 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-15 12:09:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 12:09:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 16605s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 12:14:31 [WARNING] shabbat_detector.cycle_analyzer: Unexpected: touched opposite terminal again in leg 2
+2026-09-15 12:19:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 12:32:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 12:32:14 [INFO] shabbat_detector.cycle_analyzer: Cycle complete: 1367s, up_stops=[], down_stops=['9', '9', '6', '9', '6', '2', '6', '2']
+2026-09-15 12:32:14 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-15 12:32:14 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בירידה: ['2']; כיסוי קומות חלקי (עלייה 0%, ירידה 33%); קפיצות-אחורה (עלייה 0, ירידה 2); חזרות על קומות (עלייה 0, ירידה 5); 2 חריגות טיימינג
+2026-09-15 12:33:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-15 12:33:19 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-15 12:33:19 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
+2026-09-15 16:26:19 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-15 17:37:29 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://nitzaelev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-15 19:16:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 19:16:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 24234s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 19:33:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 19:33:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 960s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 19:48:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 19:48:07 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 742s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 20:15:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 20:15:36 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1623s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 20:18:44 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 154s, up_stops=['11'], down_stops=[]
+2026-09-15 20:18:44 [INFO] shabbat_detector.fsm: [A] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-15 20:18:44 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL (masked by override=auto, source=schedule) | סיבה: מחזור לא תאם — עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 1 חריגות טיימינג
+2026-09-15 22:26:20 [INFO] shabbat_detector.schedule_windows: Schedule windows refreshed: 2 start(s), 2 end(s) (geo=294071, diaspora=True)
+2026-09-15 23:31:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: candles=1789231260.0 havdalah=1789317600.0
+2026-09-15 23:31:21 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 11533s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-15 23:32:08 [INFO] shabbat_detector.fsm: [A] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-15 23:32:08 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT (masked by override=auto, source=schedule) | סיבה: מחזור אפשרי החל — ממתין להשלמה
