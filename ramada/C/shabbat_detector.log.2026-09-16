@@ -1,0 +1,675 @@
+2026-09-16 00:03:10 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 00:55:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 01:32:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 01:49:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 02:08:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 02:25:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 02:35:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 02:46:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 03:05:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 03:19:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 05:07:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 05:25:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 06:08:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 06:33:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 06:56:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 07:22:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 07:22:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1492s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 07:22:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 07:31:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 07:43:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 07:55:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 07:55:50 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 414s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 08:07:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 08:18:44 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 08:28:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 08:39:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 08:50:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 08:57:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 383s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 09:01:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:11:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:21:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:22:54 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 662s, up_stops=['-2', '12'], down_stops=['-2', '8', '-2', '11', '12', '4', '-1', '11', '1', '-2', '11', '9', '-1', '-2']
+2026-09-16 09:22:54 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 09:22:54 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; עצירות לא חוקיות בירידה: ['12']; כיסוי קומות חלקי (עלייה 33%, ירידה 50%); קפיצות-אחורה (עלייה 0, ירידה 5); 5 חריגות טיימינג
+2026-09-16 09:23:25 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 09:31:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:43:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:53:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 09:53:32 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1839s, up_stops=['6', '-1', '-2', '0', '2', '8', '12'], down_stops=['-2', '0', '-2', '-1', '9', '-2', '9', '-2', '6', '-1', '9', '5', '-2', '6', '-1', '11', '0', '-2', '12', '11', '-2', '-1', '9', '11', '-1', '2', '-1', '11', '-1', '0', '-2', '8', '-2', '-1', '11', '7', '-2', '7', '9', '11', '-2', '0', '-1']
+2026-09-16 09:53:32 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 09:53:32 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 09:53:32 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 09:53:32 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12', '2', '6', '8']; עצירות לא חוקיות בירידה: ['12']; קפיצות-אחורה (עלייה 2, ירידה 22); חזרות על קומות (עלייה 0, ירידה 32); 9 חריגות טיימינג
+2026-09-16 09:53:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 09:56:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 09:57:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 267s, up_stops=['9', '11'], down_stops=['-1', '1', '-2']
+2026-09-16 09:57:59 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 09:57:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 09:57:59 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 09:57:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '9']; כיסוי קומות חלקי (עלייה 0%, ירידה 21%); 2 חריגות טיימינג
+2026-09-16 09:57:59 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 09:58:29 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:02:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 10:02:07 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 10:02:07 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 10:03:38 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:05:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:14:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:25:28 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:33:14 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1848s, up_stops=['-2', '0', '-1', '-2', '8', '11', '12'], down_stops=['-2', '-1', '8', '11', '12', '-2', '6', '8', '10', '11', '10', '10', '11', '10', '11', '11', '11', '10', '11', '10', '10', '11', '11', '12', '-1', '-2', '8', '-1', '0', '-2', '11', '9', '-1', '-2', '-1', '12', '-1', '10', '9', '-1', '-2']
+2026-09-16 10:33:14 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 10:33:14 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '12', '8']; עצירות לא חוקיות בירידה: ['12']; קפיצות-אחורה (עלייה 2, ירידה 19); חזרות על קומות (עלייה 1, ירידה 32); 6 חריגות טיימינג
+2026-09-16 10:34:31 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 10:34:31 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 10:34:31 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 10:34:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:34:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:36:31 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:45:11 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 671s, up_stops=['-2', '8', '-2', '5', '11', '-1', '-2', '8', '-1', '12'], down_stops=['2', '-1', '9']
+2026-09-16 10:45:11 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 10:45:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '12', '5', '8']; כיסוי קומות חלקי (עלייה 67%, ירידה 21%); 6 חריגות טיימינג
+2026-09-16 10:45:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:46:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:50:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 10:50:55 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 10:50:55 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 10:51:55 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 10:54:25 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 136s, up_stops=['-2', '12'], down_stops=['9', '-1', '-2']
+2026-09-16 10:54:25 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 10:54:25 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 33%, ירידה 21%); 1 חריגות טיימינג
+2026-09-16 10:55:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 10:55:56 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:05:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 11:14:12 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1244s, up_stops=['12'], down_stops=['-1', '8', '-1', '-2', '-1', '11', '-1', '8', '-1', '-2', '11', '-1', '9', '-1', '7', '-1']
+2026-09-16 11:14:12 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 11:14:12 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 11:14:13 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 11:14:13 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 0%, ירידה 43%); קפיצות-אחורה (עלייה 0, ירידה 7); 3 חריגות טיימינג
+2026-09-16 11:14:13 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:15:43 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:16:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 11:18:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 11:18:04 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 11:18:04 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 11:19:04 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:27:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 11:34:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1119s, up_stops=['-2', '-1', '12'], down_stops=['9', '-1', '8', '-1', '9', '-1', '11', '-1', '0', '-1']
+2026-09-16 11:34:59 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 11:34:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 67%, ירידה 36%); 6 חריגות טיימינג
+2026-09-16 11:35:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 11:35:51 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 11:35:51 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 11:35:52 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:36:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 11:37:40 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 11:43:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 320s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 11:46:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 11:53:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 11:53:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 325s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 12:03:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 12:13:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 12:20:52 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 999s, up_stops=['-2', '1', '-1', '0', '8', '-1', '12'], down_stops=['-1', '2', '4', '12', '-1']
+2026-09-16 12:20:52 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 12:20:52 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '12', '8']; עצירות לא חוקיות בירידה: ['12']; כיסוי קומות חלקי (עלייה 100%, ירידה 21%); 6 חריגות טיימינג
+2026-09-16 12:22:22 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 12:23:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 12:23:21 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 12:23:21 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 12:23:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 12:23:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 13:34:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 13:34:18 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 3982s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 13:47:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 13:47:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 326s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 13:57:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 14:04:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 14:08:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 14:22:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 14:22:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 818s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 14:43:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 14:55:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:06:41 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:16:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:17:54 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 774s, up_stops=['-1', '11', '0', '-1', '12'], down_stops=['11', '-1']
+2026-09-16 15:17:54 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 15:17:54 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '12']; כיסוי קומות חלקי (עלייה 67%, ירידה 14%); 3 חריגות טיימינג
+2026-09-16 15:19:24 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:20:57 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 156s, up_stops=['-1', '11', '12'], down_stops=[]
+2026-09-16 15:20:57 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 15:20:57 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 15:20:57 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 15:20:57 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '12']; כיסוי קומות חלקי (עלייה 33%, ירידה 0%); 2 חריגות טיימינג
+2026-09-16 15:20:57 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:21:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:26:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:30:26 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 540s, up_stops=['-1', '11'], down_stops=['11', '10', '10', '11', '10', '10', '-1']
+2026-09-16 15:30:26 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 15:30:26 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 15:30:27 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 15:30:27 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 33%, ירידה 21%); 3 חריגות טיימינג
+2026-09-16 15:30:27 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:30:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:39:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:39:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 362s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 15:45:41 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 15:45:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 15:46:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 15:49:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 15:54:25 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:01:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:02:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:03:54 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:05:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:11:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:15:32 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:20:17 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 355s, up_stops=['-2', '10'], down_stops=['11']
+2026-09-16 16:20:17 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 16:20:17 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['10']; כיסוי קומות חלקי (עלייה 33%, ירידה 7%); 3 חריגות טיימינג
+2026-09-16 16:20:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:21:01 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:21:01 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 16:21:01 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 16:22:02 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:22:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:24:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:32:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:33:33 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 519s, up_stops=['-1', '-2', '0', '11'], down_stops=['-1']
+2026-09-16 16:33:33 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 16:33:33 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 100%, ירידה 7%); 4 חריגות טיימינג
+2026-09-16 16:34:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:40:49 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 468s, up_stops=['-1', '-2', '-1', '12'], down_stops=['2', '7', '8', '-1']
+2026-09-16 16:40:49 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 16:40:49 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 16:40:49 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 16:40:49 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 67%, ירידה 28%); 4 חריגות טיימינג
+2026-09-16 16:40:50 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:41:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 16:41:36 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 16:41:36 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 16:41:37 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:42:07 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 16:42:07 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:54:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 16:56:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:00:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:02:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:04:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 17:05:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:07:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:08:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:13:46 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 208s, up_stops=['-1'], down_stops=['11', '-1']
+2026-09-16 17:13:46 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 17:13:46 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - כיסוי קומות חלקי (עלייה 33%, ירידה 14%); 2 חריגות טיימינג
+2026-09-16 17:14:31 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 17:15:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 17:16:57 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 291s, up_stops=['-1', '1'], down_stops=['-1']
+2026-09-16 17:16:57 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 17:16:57 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 17:16:58 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 17:16:58 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1']; כיסוי קומות חלקי (עלייה 33%, ירידה 7%); 2 חריגות טיימינג
+2026-09-16 17:16:58 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 17:17:28 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 17:19:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:19:09 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 17:19:09 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 17:20:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:20:40 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 17:28:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 17:28:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 336s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 17:47:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 17:47:04 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 596s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 17:51:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:52:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:52:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:54:22 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 17:57:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 18:07:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 18:17:29 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 564s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 18:19:04 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 18:21:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:25:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:27:06 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 184s, up_stops=['1', '11'], down_stops=[]
+2026-09-16 18:27:06 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 18:27:06 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '11']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%); 2 חריגות טיימינג
+2026-09-16 18:27:36 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:28:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 18:30:59 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 216s, up_stops=['-1', '0'], down_stops=['-1']
+2026-09-16 18:30:59 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 18:30:59 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 18:30:59 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 18:30:59 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - כיסוי קומות חלקי (עלייה 67%, ירידה 7%)
+2026-09-16 18:30:59 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:32:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:34:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:34:20 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 18:34:20 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 18:34:50 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:36:50 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 134s, up_stops=['2', '12'], down_stops=['11']
+2026-09-16 18:36:50 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 18:36:50 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12', '2']; כיסוי קומות חלקי (עלייה 0%, ירידה 7%); 3 חריגות טיימינג
+2026-09-16 18:38:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:40:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 18:41:16 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:41:16 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 18:41:16 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 18:42:16 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 18:46:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:48:50 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 18:50:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:02:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:06:19 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1089s, up_stops=['8', '-1', '11', '9', '1', '-1', '11', '10', '11', '-1', '0', '12'], down_stops=['0', '-1']
+2026-09-16 19:06:19 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 19:06:19 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '10', '11', '12', '8', '9']; כיסוי קומות חלקי (עלייה 67%, ירידה 14%); קפיצות-אחורה (עלייה 6, ירידה 0); 5 חריגות טיימינג
+2026-09-16 19:08:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 19:11:02 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 283s, up_stops=['-1', '8'], down_stops=['-1']
+2026-09-16 19:11:02 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 19:11:02 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 19:11:03 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 19:11:03 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['8']; כיסוי קומות חלקי (עלייה 33%, ירידה 7%); 2 חריגות טיימינג
+2026-09-16 19:11:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 19:11:33 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 19:12:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 19:12:41 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 19:12:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 19:13:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:14:41 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 19:15:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 19:19:52 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 400s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 19:21:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 19:29:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:29:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 496s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 19:39:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:45:11 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 306s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-16 19:47:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 19:50:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 19:57:11 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 608s, up_stops=['0', '1', '-1', '11'], down_stops=['8', '-1', '7', '9', '-1']
+2026-09-16 19:57:11 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-16 19:57:11 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '11']; כיסוי קומות חלקי (עלייה 67%, ירידה 28%); 4 חריגות טיימינג
+2026-09-16 19:58:11 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 20:00:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 4 start(s), 1 end(s) (geo=281184, diaspora=True)
+2026-09-16 20:00:49 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-16 20:00:49 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-16 20:00:49 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-16 20:01:19 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-16 20:04:53 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-17 01:21:25 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-17 01:21:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-17 03:16:02 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-17 03:16:03 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-17 09:09:12 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-17 09:11:43 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-18 03:01:50 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-18 03:01:51 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-18 03:01:58 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-18 03:02:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-18 03:04:51 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-18 04:08:23 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-18 04:10:53 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-18 12:43:29 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+2026-09-18 12:43:31 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-18 17:22:13 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-18 17:22:14 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-18 17:39:34 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-18 17:39:36 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-18 17:40:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-18 17:42:58 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-18 18:26:07 [WARNING] shabbat_detector.firebase_client: Elevator stream error: ("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+2026-09-18 18:26:07 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-18 18:26:08 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-18 23:32:35 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-18 23:32:40 [WARNING] shabbat_detector.firebase_client: Background stream error (/settings.json): HTTPSConnectionPool(host='ramada-elev-default-rtdb.europe-west1.firebasedatabase.app', port=443): Max retries exceeded with url: /settings.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)')))
+2026-09-18 23:32:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-19 00:45:52 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-20 02:25:40 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 02:28:10 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 02:35:41 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-20 03:11:01 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 03:13:31 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 09:31:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-20 10:31:33 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 10:31:33 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 311266s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 10:31:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-20 10:33:01 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 91s, up_stops=['12'], down_stops=[]
+2026-09-20 10:33:01 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 10:33:01 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-20 10:33:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 10:41:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 10:42:02 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 558s, up_stops=['12'], down_stops=['-1', '6', '-1']
+2026-09-20 10:42:02 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 10:42:02 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 10:42:02 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 10:42:02 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 0%, ירידה 14%); 3 חריגות טיימינג
+2026-09-20 10:42:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 10:44:03 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 11:10:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 11:10:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1181s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 11:20:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 11:25:52 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 11:25:52 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 11:27:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 11:49:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 11:49:30 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1231s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 12:01:00 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-20 12:01:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-20 12:10:25 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-20 12:10:27 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-20 12:11:03 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 12:13:33 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 12:14:52 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 12:25:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 12:32:03 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 657s, up_stops=['1', '-1', '1', '-1', '3', '-1', '1', '3', '10', '-1', '12'], down_stops=[]
+2026-09-20 12:32:03 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 12:32:03 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '10', '12', '3']; כיסוי קומות חלקי (עלייה 33%, ירידה 0%); 4 חריגות טיימינג
+2026-09-20 12:33:04 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 12:45:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 12:45:42 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 797s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 12:53:03 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 12:53:03 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 12:53:34 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 12:58:36 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 13:07:53 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 886s, up_stops=['-1', '3', '10'], down_stops=['11', '11', '11', '11', '11', '8', '11', '10', '11']
+2026-09-20 13:07:53 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 13:07:53 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['10', '3']; כיסוי קומות חלקי (עלייה 33%, ירידה 21%); 4 חריגות טיימינג
+2026-09-20 13:08:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 13:14:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 13:14:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 372s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 13:18:02 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 13:18:02 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 13:18:32 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 13:27:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 13:39:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 13:39:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 592s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 13:45:04 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 307s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 13:47:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-20 13:47:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-20 13:51:45 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 13:54:27 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-20 14:03:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 14:07:12 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 754s, up_stops=['-1', '1', '0', '1', '0', '1', '0', '1', '0', '3', '1', '11'], down_stops=['1', '-1']
+2026-09-20 14:07:12 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 14:07:12 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['1', '11', '3']; כיסוי קומות חלקי (עלייה 67%, ירידה 14%); קפיצות-אחורה (עלייה 5, ירידה 0); 5 חריגות טיימינג
+2026-09-20 14:09:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 14:16:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 14:26:12 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 14:28:41 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1164s, up_stops=['-1', '3', '4', '6', '9', '-1', '3', '6', '11', '2', '0', '-1', '9', '0', '3', '-1', '3', '12'], down_stops=['3', '-1', '4', '10', '12', '9', '-1']
+2026-09-20 14:28:41 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 14:28:41 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 14:28:41 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-20 14:28:41 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11', '12', '2', '3', '4', '6', '9']; עצירות לא חוקיות בירידה: ['12']; כיסוי קומות חלקי (עלייה 67%, ירידה 36%); קפיצות-אחורה (עלייה 6, ירידה 3); 9 חריגות טיימינג
+2026-09-20 14:28:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 14:30:42 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 14:43:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 14:43:39 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1046s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 18:00:03 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 18:02:04 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 18:06:09 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-20 18:13:10 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 18:15:10 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 18:19:00 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 1s
+2026-09-20 18:19:02 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-20 20:44:20 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-20 20:46:21 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-20 21:59:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 21:59:22 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 26054s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 21:59:22 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-20 21:59:22 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-20 21:59:53 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-20 22:03:45 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 353s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 22:13:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 22:13:46 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 490s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 22:16:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-20 23:54:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-20 23:54:34 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 6029s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-20 23:58:57 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:07:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 00:07:58 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 463s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 00:10:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:12:52 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:17:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 00:17:57 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:21:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:31:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 00:31:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 361s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 00:36:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:41:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 00:41:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:45:03 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:51:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 00:51:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 396s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 00:52:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 00:52:39 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-21 00:55:10 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-21 00:55:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 01:05:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 01:05:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 477s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 01:06:33 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 01:22:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 01:22:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 923s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 01:32:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 01:32:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 507s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 01:41:06 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 517s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 02:01:57 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:01:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1255s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 02:04:01 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:07:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:17:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:17:21 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 459s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 02:23:30 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:25:24 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:27:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:27:41 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:29:49 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:34:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:37:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:37:15 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:41:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:45:32 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 359s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 02:46:45 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:46:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:50:12 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:52:40 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:56:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:57:51 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 02:57:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 02:59:46 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:01:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:07:52 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 315s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 03:10:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 03:12:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:14:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:25:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 03:25:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 631s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 03:29:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:34:18 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:36:25 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 03:37:45 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:42:13 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:46:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 03:46:59 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:49:49 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:51:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 03:56:55 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 324s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 03:57:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:01:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:12:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:12:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 504s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 04:17:09 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:23:20 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:25:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:28:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:31:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:35:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:35:18 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:39:43 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:44:08 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:45:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:48:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:53:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:56:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 04:56:39 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 04:57:37 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:04:09 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 332s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 05:06:42 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 05:09:14 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:21:59 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 05:21:59 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 674s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 05:26:11 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:27:56 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:32:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 05:32:19 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:41:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 05:41:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 535s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 05:44:57 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:47:05 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:50:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 05:52:32 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 05:56:04 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 06:02:06 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 06:03:08 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 06:05:07 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 06:09:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-21 06:13:06 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 15:18:47 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 15:18:47 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 32682s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 21:21:42 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-21 21:24:12 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-21 22:40:53 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 7 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-21 22:40:53 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 26615s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 22:47:12 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 341s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-21 22:52:48 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 06:42:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 06:42:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 28205s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 13:14:03 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 13:14:03 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 23468s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 13:23:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 13:23:17 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 669s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 13:25:58 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 147s, up_stops=['12'], down_stops=['11', '10', '9', '8', '-1']
+2026-09-22 13:25:58 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 13:25:58 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 0%, ירידה 36%); 2 חריגות טיימינג
+2026-09-22 13:27:34 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 87s, up_stops=['12'], down_stops=[]
+2026-09-22 13:27:34 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 13:27:34 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 13:27:35 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 13:27:35 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['12']; כיסוי קומות חלקי (עלייה 0%, ירידה 0%)
+2026-09-22 13:27:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 13:27:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 13:29:35 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 13:30:21 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 13:30:21 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 13:30:21 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 13:30:51 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 13:32:23 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 13:37:14 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 13:55:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 13:55:38 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1087s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 14:12:46 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 14:31:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 14:34:02 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 14:37:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 14:38:55 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 14:41:49 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 14:49:00 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 423s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 14:53:30 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 14:54:42 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 14:59:10 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 324s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 15:00:35 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 15:02:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 15:04:50 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 15:11:24 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 15:20:54 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 15:20:54 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 352s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 15:25:36 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 15:28:51 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 15:30:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 15:39:34 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 721s, up_stops=['-1', '11'], down_stops=['-1', '10', '11', '-1']
+2026-09-22 15:39:34 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 15:39:34 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['11']; כיסוי קומות חלקי (עלייה 33%, ירידה 21%); 2 חריגות טיימינג
+2026-09-22 15:40:04 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 15:42:34 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 15:50:57 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 337s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 16:02:13 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:10:30 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 16:10:30 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 16:11:00 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 16:12:47 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 16:13:15 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:25:16 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:25:16 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 691s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 16:31:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 16:35:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:45:02 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:50:38 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1135s, up_stops=['-1', '10', '11'], down_stops=['11', '11', '11', '11', '11', '10', '10', '11', '10', '11', '10', '11', '10', '11', '10']
+2026-09-22 16:50:38 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 16:50:38 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['10', '11']; כיסוי קומות חלקי (עלייה 33%, ירידה 14%); חזרות על קומות (עלייה 0, ירידה 13); 1 חריגות טיימינג
+2026-09-22 16:51:09 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 16:57:20 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 16:57:20 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 367s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 16:58:16 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 16:58:16 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 16:58:47 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 17:08:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 17:18:55 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 17:19:53 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1268s, up_stops=['10', '11'], down_stops=['10', '0', '-1', '4', '-1', '5', '10', '-1', '5', '7', '-1', '7', '2', '-1', '7', '2']
+2026-09-22 17:19:53 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 17:19:53 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['10', '11']; כיסוי קומות חלקי (עלייה 0%, ירידה 50%); קפיצות-אחורה (עלייה 0, ירידה 7); 6 חריגות טיימינג
+2026-09-22 17:21:24 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 17:32:05 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 17:32:05 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 624s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 17:35:08 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 17:35:08 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 17:37:39 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 17:47:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 17:47:35 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 363s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 18:25:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 18:25:19 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 1903s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 18:30:32 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 18:35:26 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 18:45:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 18:55:27 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 18:57:17 [INFO] shabbat_detector.cycle_analyzer: Cycle recovered (missed TOP-terminal read): 1575s, up_stops=['-1', '2', '9', '-1', '10', '9', '-1', '0', '-1', '11'], down_stops=['10', '-1', '8', '11', '-1', '-2', '-1', '9', '-1', '4', '-1', '0', '10', '0', '-1']
+2026-09-22 18:57:17 [INFO] shabbat_detector.fsm: [C] DetectorState.CANDIDATE_SHABBAT → DetectorState.NORMAL
+2026-09-22 18:57:17 [INFO] detector: SHABBAT TRANSITION CANDIDATE_SHABBAT -> NORMAL | סיבה: מחזור לא תאם - עצירות לא חוקיות בעלייה: ['10', '11', '2', '9']; קפיצות-אחורה (עלייה 4, ירידה 7); 9 חריגות טיימינג
+2026-09-22 18:57:48 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 19:06:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 19:06:00 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 19:06:00 [INFO] shabbat_detector.fsm: [C] DetectorState.NORMAL → DetectorState.CANDIDATE_SHABBAT
+2026-09-22 19:06:00 [INFO] detector: SHABBAT TRANSITION NORMAL -> CANDIDATE_SHABBAT | סיבה: מחזור אפשרי החל - ממתין להשלמה
+2026-09-22 19:07:30 [INFO] detector: Config updated remotely (keys=['SHABBAT_DETECTOR'])
+2026-09-22 19:14:56 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 429s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 19:18:39 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 19:34:38 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 19:46:23 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 19:54:27 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 353s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 20:06:17 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 20:09:06 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-22 20:09:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-22 20:09:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-22 20:09:07 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-22 20:11:37 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-22 20:21:37 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 20:21:37 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 365s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 20:23:58 [WARNING] shabbat_detector.firebase_client: Elevator stream reconnecting in 2s
+2026-09-22 20:24:00 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevator_configs/C.json
+2026-09-22 20:24:00 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-22 20:24:00 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+2026-09-22 20:26:30 [INFO] detector: Config updated remotely (keys=['AUTO_LEARN_CONFIG', 'BOTTOM_FLOOR', 'FLOOR_WAITS', 'SHABBAT_ACTIVE', 'SHABBAT_BREAK_ACTIVE', 'SHABBAT_DETECTOR', 'SHABBAT_MODE', 'STOPPING_FLOORS', 'STOPPING_FLOORS_DOWN', 'STOPPING_FLOORS_UP', 'TIME_PASS_FLOOR', 'TIME_PER_FLOOR', 'TOP_FLOOR', 'VISIBLE_FLOORS', 'secret_key'])
+2026-09-22 20:26:43 [INFO] shabbat_detector.firebase_client: SSE stream connecting: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/settings.json
+2026-09-22 20:32:48 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 20:42:09 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 20:54:00 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 21:04:22 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 21:04:38 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 21:05:34 [INFO] shabbat_detector.cycle_analyzer: Cycle aborted: returned to BOTTOM without reaching TOP
+2026-09-22 21:10:52 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 313s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 21:14:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 21:29:43 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 21:29:43 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 470s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 21:41:01 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 21:41:01 [INFO] shabbat_detector.cycle_analyzer: Elevator idle 548s - resetting cycle (was in _Phase.LEG_ONE)
+2026-09-22 21:57:56 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 22:17:19 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 22:27:58 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 22:39:18 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 22:50:35 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
+2026-09-22 23:01:21 [INFO] shabbat_detector.hebcal_gate: Hebcal refreshed: 5 start(s), 2 end(s) (geo=281184, diaspora=True)
