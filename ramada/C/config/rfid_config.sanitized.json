@@ -6,7 +6,7 @@
     "FIREBASE_URL": "https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators.json",
     "LOG_BACKUP_ENABLED": true,
     "LOG_BACKUP_INTERVAL_DAYS": 7,
-    "LOG_BACKUP_REPO_URL": "https://***@github.com/elibic/elevator-logs.git",
+    "LOG_BACKUP_REPO_URL": "git@github-elevator-logs:elibic/elevator-logs.git",
     "RF_POWER": "18.5",
     "SECRET_KEY": "***REDACTED***",
     "SERIAL_PORT": "/dev/ttyUSB0",
@@ -62,6 +62,8 @@
     "00E2004707FD10602710B401": "-2",
     "00E2004707FD50602710B801": "0",
     "00E2004707FDD0602710C001": "-2",
+    "00E28011704000021CEE45F3": "3",
+    "00E28011704000021D35AE4D": "6",
     "00E280691500005017AAE671": "0",
     "00tttttttttttEE45E3": "0"
   }
