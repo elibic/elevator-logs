@@ -2327,3 +2327,628 @@
 [2026-11-05 12:59:29] Error sending status: HTTP 401
 [2026-11-05 12:59:30] Error sending status: HTTP 401
 [2026-11-05 12:59:30] Error sending status: HTTP 401
+[2026-11-05 12:59:31] Error sending status: HTTP 401
+[2026-11-05 12:59:32] Error sending status: HTTP 401
+[2026-11-05 12:59:32] Error sending status: HTTP 401
+[2026-11-05 12:59:33] Error sending status: HTTP 401
+[2026-11-05 12:59:34] Error sending status: HTTP 401
+[2026-11-05 12:59:34] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 12:59:35] Error sending status: HTTP 401
+[2026-11-05 12:59:35] Error sending status: HTTP 401
+[2026-11-05 12:59:36] Error sending status: HTTP 401
+[2026-11-05 12:59:36] Error sending status: HTTP 401
+[2026-11-05 12:59:37] Error sending status: HTTP 401
+[2026-11-05 12:59:38] Error sending status: HTTP 401
+[2026-11-05 12:59:38] Error sending status: HTTP 401
+[2026-11-05 12:59:38] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 12:59:39] Error sending status: HTTP 401
+[2026-11-05 12:59:39] Error sending status: HTTP 401
+[2026-11-05 12:59:40] Error sending status: HTTP 401
+[2026-11-05 12:59:41] Error sending status: HTTP 401
+[2026-11-05 12:59:41] Error sending status: HTTP 401
+[2026-11-05 12:59:42] Error sending status: HTTP 401
+[2026-11-05 12:59:42] Error sending status: HTTP 401
+[2026-11-05 12:59:43] Error sending status: HTTP 401
+[2026-11-05 12:59:44] Error sending status: HTTP 401
+[2026-11-05 12:59:44] Tag flapping: suppressed 81 repeated tag-change log lines in the last 60s
+[2026-11-05 12:59:45] Error sending status: HTTP 401
+[2026-11-05 12:59:46] Error sending status: HTTP 401
+[2026-11-05 12:59:46] Error sending status: HTTP 401
+[2026-11-05 12:59:47] Error sending status: HTTP 401
+[2026-11-05 12:59:48] Error sending status: HTTP 401
+[2026-11-05 12:59:48] Error sending status: HTTP 401
+[2026-11-05 12:59:49] Error sending status: HTTP 401
+[2026-11-05 12:59:50] Error sending status: HTTP 401
+[2026-11-05 12:59:55] Error sending status: HTTP 401
+[2026-11-05 12:59:56] Error sending status: HTTP 401
+[2026-11-05 12:59:56] Error sending status: HTTP 401
+[2026-11-05 12:59:57] Error sending status: HTTP 401
+[2026-11-05 12:59:57] Error sending status: HTTP 401
+[2026-11-05 12:59:58] Error sending status: HTTP 401
+[2026-11-05 12:59:59] Error sending status: HTTP 401
+[2026-11-05 13:00:00] Error sending status: HTTP 401
+[2026-11-05 13:00:00] Error sending status: HTTP 401
+[2026-11-05 13:00:01] Error sending status: HTTP 401
+[2026-11-05 13:00:02] Error sending status: HTTP 401
+[2026-11-05 13:00:02] Error sending status: HTTP 401
+[2026-11-05 13:00:03] Error sending status: HTTP 401
+[2026-11-05 13:00:03] Error sending status: HTTP 401
+[2026-11-05 13:00:04] Error sending status: HTTP 401
+[2026-11-05 13:00:04] Tag Change: ID '00' -> Floor 'Unknown'
+[2026-11-05 13:00:05] Error sending status: HTTP 401
+[2026-11-05 13:00:06] Error sending status: HTTP 401
+[2026-11-05 13:00:06] Error sending status: HTTP 401
+[2026-11-05 13:00:07] Error sending status: HTTP 401
+[2026-11-05 13:00:07] Tag Change: ID '00E280' -> Floor 'Unknown'
+[2026-11-05 13:00:08] Error sending status: HTTP 401
+[2026-11-05 13:00:09] Error sending status: HTTP 401
+[2026-11-05 13:00:09] Error sending status: HTTP 401
+[2026-11-05 13:00:10] Tag Change: ID '00E28011704000' -> Floor 'Unknown'
+[2026-11-05 13:00:10] Error sending status: HTTP 401
+[2026-11-05 13:00:11] Error sending status: HTTP 401
+[2026-11-05 13:00:11] Error sending status: HTTP 401
+[2026-11-05 13:00:12] Error sending status: HTTP 401
+[2026-11-05 13:00:12] Error sending status: HTTP 401
+[2026-11-05 13:00:13] Error sending status: HTTP 401
+[2026-11-05 13:00:14] Error sending status: HTTP 401
+[2026-11-05 13:00:14] Error sending status: HTTP 401
+[2026-11-05 13:00:15] Error sending status: HTTP 401
+[2026-11-05 13:00:16] Error sending status: HTTP 401
+[2026-11-05 13:00:16] Error sending status: HTTP 401
+[2026-11-05 13:00:17] Error sending status: HTTP 401
+[2026-11-05 13:00:17] Error sending status: HTTP 401
+[2026-11-05 13:00:18] Error sending status: HTTP 401
+[2026-11-05 13:00:19] Error sending status: HTTP 401
+[2026-11-05 13:00:20] Error sending status: HTTP 401
+[2026-11-05 13:00:20] Error sending status: HTTP 401
+[2026-11-05 13:00:21] Error sending status: HTTP 401
+[2026-11-05 13:00:22] Error sending status: HTTP 401
+[2026-11-05 13:00:23] Error sending status: HTTP 401
+[2026-11-05 13:00:23] Error sending status: HTTP 401
+[2026-11-05 13:00:24] Error sending status: HTTP 401
+[2026-11-05 13:00:26] Error sending status: HTTP 401
+[2026-11-05 13:00:26] Error sending status: HTTP 401
+[2026-11-05 13:00:27] Error sending status: HTTP 401
+[2026-11-05 13:00:28] Error sending status: HTTP 401
+[2026-11-05 13:00:29] Error sending status: HTTP 401
+[2026-11-05 13:00:30] Error sending status: HTTP 401
+[2026-11-05 13:00:30] Error sending status: HTTP 401
+[2026-11-05 13:00:31] Error sending status: HTTP 401
+[2026-11-05 13:00:32] Error sending status: HTTP 401
+[2026-11-05 13:00:32] Error sending status: HTTP 401
+[2026-11-05 13:00:33] Error sending status: HTTP 401
+[2026-11-05 13:00:34] Error sending status: HTTP 401
+[2026-11-05 13:00:34] Error sending status: HTTP 401
+[2026-11-05 13:00:35] Error sending status: HTTP 401
+[2026-11-05 13:00:36] Error sending status: HTTP 401
+[2026-11-05 13:00:36] Error sending status: HTTP 401
+[2026-11-05 13:00:36] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:00:37] Error sending status: HTTP 401
+[2026-11-05 13:00:37] Error sending status: HTTP 401
+[2026-11-05 13:00:38] Error sending status: HTTP 401
+[2026-11-05 13:00:38] Error sending status: HTTP 401
+[2026-11-05 13:00:39] Error sending status: HTTP 401
+[2026-11-05 13:00:40] Error sending status: HTTP 401
+[2026-11-05 13:00:40] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:00:40] Error sending status: HTTP 401
+[2026-11-05 13:00:41] Error sending status: HTTP 401
+[2026-11-05 13:00:41] Error sending status: HTTP 401
+[2026-11-05 13:00:42] Error sending status: HTTP 401
+[2026-11-05 13:00:43] Error sending status: HTTP 401
+[2026-11-05 13:00:43] Error sending status: HTTP 401
+[2026-11-05 13:00:44] Error sending status: HTTP 401
+[2026-11-05 13:00:44] Error sending status: HTTP 401
+[2026-11-05 13:00:45] Tag flapping: suppressed 86 repeated tag-change log lines in the last 60s
+[2026-11-05 13:00:45] Error sending status: HTTP 401
+[2026-11-05 13:00:46] Error sending status: HTTP 401
+[2026-11-05 13:00:46] Error sending status: HTTP 401
+[2026-11-05 13:00:47] Tag Change: ID '00E2801170400002' -> Floor 'Unknown'
+[2026-11-05 13:00:47] Error sending status: HTTP 401
+[2026-11-05 13:00:48] Error sending status: HTTP 401
+[2026-11-05 13:00:49] Error sending status: HTTP 401
+[2026-11-05 13:00:50] Error sending status: HTTP 401
+[2026-11-05 13:00:50] Error sending status: HTTP 401
+[2026-11-05 13:00:51] Error sending status: HTTP 401
+[2026-11-05 13:00:51] Error sending status: HTTP 401
+[2026-11-05 13:00:52] Error sending status: HTTP 401
+[2026-11-05 13:00:52] Error sending status: HTTP 401
+[2026-11-05 13:00:53] Error sending status: HTTP 401
+[2026-11-05 13:00:53] Error sending status: HTTP 401
+[2026-11-05 13:00:54] Error sending status: HTTP 401
+[2026-11-05 13:00:55] Error sending status: HTTP 401
+[2026-11-05 13:00:56] Error sending status: HTTP 401
+[2026-11-05 13:00:56] Error sending status: HTTP 401
+[2026-11-05 13:00:57] Error sending status: HTTP 401
+[2026-11-05 13:00:57] Error sending status: HTTP 401
+[2026-11-05 13:00:58] Error sending status: HTTP 401
+[2026-11-05 13:00:59] Error sending status: HTTP 401
+[2026-11-05 13:01:00] Error sending status: HTTP 401
+[2026-11-05 13:01:01] Error sending status: HTTP 401
+[2026-11-05 13:01:01] Tag Change: ID '00E28011' -> Floor 'Unknown'
+[2026-11-05 13:01:02] Error sending status: HTTP 401
+[2026-11-05 13:01:03] Error sending status: HTTP 401
+[2026-11-05 13:01:03] Error sending status: HTTP 401
+[2026-11-05 13:01:04] Error sending status: HTTP 401
+[2026-11-05 13:01:05] Error sending status: HTTP 401
+[2026-11-05 13:01:05] Error sending status: HTTP 401
+[2026-11-05 13:01:06] Error sending status: HTTP 401
+[2026-11-05 13:01:07] Error sending status: HTTP 401
+[2026-11-05 13:01:08] Error sending status: HTTP 401
+[2026-11-05 13:01:08] Error sending status: HTTP 401
+[2026-11-05 13:01:09] Error sending status: HTTP 401
+[2026-11-05 13:01:10] Error sending status: HTTP 401
+[2026-11-05 13:01:10] Error sending status: HTTP 401
+[2026-11-05 13:01:11] Error sending status: HTTP 401
+[2026-11-05 13:01:12] Error sending status: HTTP 401
+[2026-11-05 13:01:12] Error sending status: HTTP 401
+[2026-11-05 13:01:13] Error sending status: HTTP 401
+[2026-11-05 13:01:13] Error sending status: HTTP 401
+[2026-11-05 13:01:14] Error sending status: HTTP 401
+[2026-11-05 13:01:14] Error sending status: HTTP 401
+[2026-11-05 13:01:15] Error sending status: HTTP 401
+[2026-11-05 13:01:16] Error sending status: HTTP 401
+[2026-11-05 13:01:17] Error sending status: HTTP 401
+[2026-11-05 13:01:18] Error sending status: HTTP 401
+[2026-11-05 13:01:18] Error sending status: HTTP 401
+[2026-11-05 13:01:19] Error sending status: HTTP 401
+[2026-11-05 13:01:20] Error sending status: HTTP 401
+[2026-11-05 13:01:20] Error sending status: HTTP 401
+[2026-11-05 13:01:21] Error sending status: HTTP 401
+[2026-11-05 13:01:22] Error sending status: HTTP 401
+[2026-11-05 13:01:23] Error sending status: HTTP 401
+[2026-11-05 13:01:23] Error sending status: HTTP 401
+[2026-11-05 13:01:24] Error sending status: HTTP 401
+[2026-11-05 13:01:25] Error sending status: HTTP 401
+[2026-11-05 13:01:25] Error sending status: HTTP 401
+[2026-11-05 13:01:26] Error sending status: HTTP 401
+[2026-11-05 13:01:27] Error sending status: HTTP 401
+[2026-11-05 13:01:27] Error sending status: HTTP 401
+[2026-11-05 13:01:28] Error sending status: HTTP 401
+[2026-11-05 13:01:29] Error sending status: HTTP 401
+[2026-11-05 13:01:30] Error sending status: HTTP 401
+[2026-11-05 13:01:31] Error sending status: HTTP 401
+[2026-11-05 13:01:32] Error sending status: HTTP 401
+[2026-11-05 13:01:32] Error sending status: HTTP 401
+[2026-11-05 13:01:33] Error sending status: HTTP 401
+[2026-11-05 13:01:34] Error sending status: HTTP 401
+[2026-11-05 13:01:35] Error sending status: HTTP 401
+[2026-11-05 13:01:35] Error sending status: HTTP 401
+[2026-11-05 13:01:36] Error sending status: HTTP 401
+[2026-11-05 13:01:38] Error sending status: HTTP 401
+[2026-11-05 13:01:38] Error sending status: HTTP 401
+[2026-11-05 13:01:39] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:01:39] Error sending status: HTTP 401
+[2026-11-05 13:01:40] Error sending status: HTTP 401
+[2026-11-05 13:01:40] Error sending status: HTTP 401
+[2026-11-05 13:01:41] Error sending status: HTTP 401
+[2026-11-05 13:01:42] Error sending status: HTTP 401
+[2026-11-05 13:01:42] Error sending status: HTTP 401
+[2026-11-05 13:01:43] Error sending status: HTTP 401
+[2026-11-05 13:01:44] Error sending status: HTTP 401
+[2026-11-05 13:01:44] Tag Change: ID '00E28011704000021CEE45' -> Floor 'Unknown'
+[2026-11-05 13:01:44] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:01:45] Error sending status: HTTP 401
+[2026-11-05 13:01:46] Error sending status: HTTP 401
+[2026-11-05 13:01:46] Tag flapping: suppressed 79 repeated tag-change log lines in the last 61s
+[2026-11-05 13:01:47] Error sending status: HTTP 401
+[2026-11-05 13:01:48] Error sending status: HTTP 401
+[2026-11-05 13:01:48] Error sending status: HTTP 401
+[2026-11-05 13:01:49] Tag Change: ID '00E280117040' -> Floor 'Unknown'
+[2026-11-05 13:01:49] Tag Change: ID '00E28011704000021C' -> Floor 'Unknown'
+[2026-11-05 13:01:50] Error sending status: HTTP 401
+[2026-11-05 13:01:50] Error sending status: HTTP 401
+[2026-11-05 13:01:51] Error sending status: HTTP 401
+[2026-11-05 13:01:52] Error sending status: HTTP 401
+[2026-11-05 13:01:52] Error sending status: HTTP 401
+[2026-11-05 13:01:53] Error sending status: HTTP 401
+[2026-11-05 13:01:54] Error sending status: HTTP 401
+[2026-11-05 13:01:54] Error sending status: HTTP 401
+[2026-11-05 13:01:55] Error sending status: HTTP 401
+[2026-11-05 13:01:56] Error sending status: HTTP 401
+[2026-11-05 13:01:57] Error sending status: HTTP 401
+[2026-11-05 13:01:57] Error sending status: HTTP 401
+[2026-11-05 13:01:58] Error sending status: HTTP 401
+[2026-11-05 13:01:59] Error sending status: HTTP 401
+[2026-11-05 13:02:00] Error sending status: HTTP 401
+[2026-11-05 13:02:00] Error sending status: HTTP 401
+[2026-11-05 13:02:01] Error sending status: HTTP 401
+[2026-11-05 13:02:02] Error sending status: HTTP 401
+[2026-11-05 13:02:02] Error sending status: HTTP 401
+[2026-11-05 13:02:03] Tag Change: ID '00' -> Floor 'Unknown'
+[2026-11-05 13:02:03] Error sending status: HTTP 401
+[2026-11-05 13:02:04] Error sending status: HTTP 401
+[2026-11-05 13:02:05] Error sending status: HTTP 401
+[2026-11-05 13:02:06] Error sending status: HTTP 401
+[2026-11-05 13:02:06] Error sending status: HTTP 401
+[2026-11-05 13:02:07] Error sending status: HTTP 401
+[2026-11-05 13:02:07] Error sending status: HTTP 401
+[2026-11-05 13:02:08] Error sending status: HTTP 401
+[2026-11-05 13:02:09] Error sending status: HTTP 401
+[2026-11-05 13:02:10] Error sending status: HTTP 401
+[2026-11-05 13:02:11] Error sending status: HTTP 401
+[2026-11-05 13:02:11] Error sending status: HTTP 401
+[2026-11-05 13:02:12] Error sending status: HTTP 401
+[2026-11-05 13:02:13] Error sending status: HTTP 401
+[2026-11-05 13:02:14] Error sending status: HTTP 401
+[2026-11-05 13:02:14] Error sending status: HTTP 401
+[2026-11-05 13:02:15] Error sending status: HTTP 401
+[2026-11-05 13:02:16] Error sending status: HTTP 401
+[2026-11-05 13:02:16] Error sending status: HTTP 401
+[2026-11-05 13:02:16] Error sending status: HTTP 401
+[2026-11-05 13:02:17] Error sending status: HTTP 401
+[2026-11-05 13:02:18] Error sending status: HTTP 401
+[2026-11-05 13:02:19] Error sending status: HTTP 401
+[2026-11-05 13:02:19] Error sending status: HTTP 401
+[2026-11-05 13:02:20] Error sending status: HTTP 401
+[2026-11-05 13:02:21] Error sending status: HTTP 401
+[2026-11-05 13:02:22] Error sending status: HTTP 401
+[2026-11-05 13:02:22] Error sending status: HTTP 401
+[2026-11-05 13:02:23] Error sending status: HTTP 401
+[2026-11-05 13:02:24] Error sending status: HTTP 401
+[2026-11-05 13:02:25] Error sending status: HTTP 401
+[2026-11-05 13:02:26] Error sending status: HTTP 401
+[2026-11-05 13:02:27] Error sending status: HTTP 401
+[2026-11-05 13:02:28] Error sending status: HTTP 401
+[2026-11-05 13:02:28] Error sending status: HTTP 401
+[2026-11-05 13:02:29] Error sending status: HTTP 401
+[2026-11-05 13:02:29] Error sending status: HTTP 401
+[2026-11-05 13:02:30] Error sending status: HTTP 401
+[2026-11-05 13:02:31] Error sending status: HTTP 401
+[2026-11-05 13:02:31] Error sending status: HTTP 401
+[2026-11-05 13:02:32] Error sending status: HTTP 401
+[2026-11-05 13:02:33] Error sending status: HTTP 401
+[2026-11-05 13:02:33] Error sending status: HTTP 401
+[2026-11-05 13:02:35] Error sending status: HTTP 401
+[2026-11-05 13:02:35] Error sending status: HTTP 401
+[2026-11-05 13:02:36] Error sending status: HTTP 401
+[2026-11-05 13:02:37] Error sending status: HTTP 401
+[2026-11-05 13:02:38] Error sending status: HTTP 401
+[2026-11-05 13:02:38] Error sending status: HTTP 401
+[2026-11-05 13:02:39] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:02:39] Error sending status: HTTP 401
+[2026-11-05 13:02:40] Error sending status: HTTP 401
+[2026-11-05 13:02:40] Error sending status: HTTP 401
+[2026-11-05 13:02:41] Error sending status: HTTP 401
+[2026-11-05 13:02:42] Error sending status: HTTP 401
+[2026-11-05 13:02:43] Error sending status: HTTP 401
+[2026-11-05 13:02:43] Error sending status: HTTP 401
+[2026-11-05 13:02:44] Error sending status: HTTP 401
+[2026-11-05 13:02:45] Error sending status: HTTP 401
+[2026-11-05 13:02:45] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:02:45] Error sending status: HTTP 401
+[2026-11-05 13:02:46] Error sending status: HTTP 401
+[2026-11-05 13:02:47] Error sending status: HTTP 401
+[2026-11-05 13:02:47] Error sending status: HTTP 401
+[2026-11-05 13:02:47] Tag flapping: suppressed 125 repeated tag-change log lines in the last 61s
+[2026-11-05 13:02:48] Error sending status: HTTP 401
+[2026-11-05 13:02:49] Error sending status: HTTP 401
+[2026-11-05 13:02:49] Error sending status: HTTP 401
+[2026-11-05 13:02:50] Error sending status: HTTP 401
+[2026-11-05 13:02:50] Error sending status: HTTP 401
+[2026-11-05 13:02:51] Error sending status: HTTP 401
+[2026-11-05 13:02:51] Error sending status: HTTP 401
+[2026-11-05 13:02:52] Error sending status: HTTP 401
+[2026-11-05 13:02:53] Error sending status: HTTP 401
+[2026-11-05 13:02:55] Error sending status: HTTP 401
+[2026-11-05 13:02:56] Error sending status: HTTP 401
+[2026-11-05 13:02:57] Error sending status: HTTP 401
+[2026-11-05 13:02:57] Error sending status: HTTP 401
+[2026-11-05 13:02:58] Error sending status: HTTP 401
+[2026-11-05 13:02:59] Error sending status: HTTP 401
+[2026-11-05 13:02:59] Error sending status: HTTP 401
+[2026-11-05 13:03:00] Error sending status: HTTP 401
+[2026-11-05 13:03:01] Error sending status: HTTP 401
+[2026-11-05 13:03:02] Error sending status: HTTP 401
+[2026-11-05 13:03:03] Error sending status: HTTP 401
+[2026-11-05 13:03:04] Error sending status: HTTP 401
+[2026-11-05 13:03:05] Error sending status: HTTP 401
+[2026-11-05 13:03:05] Error sending status: HTTP 401
+[2026-11-05 13:03:06] Error sending status: HTTP 401
+[2026-11-05 13:03:07] Error sending status: HTTP 401
+[2026-11-05 13:03:08] Error sending status: HTTP 401
+[2026-11-05 13:03:08] Error sending status: HTTP 401
+[2026-11-05 13:03:09] Error sending status: HTTP 401
+[2026-11-05 13:03:09] Error sending status: HTTP 401
+[2026-11-05 13:03:10] Error sending status: HTTP 401
+[2026-11-05 13:03:11] Error sending status: HTTP 401
+[2026-11-05 13:03:11] Error sending status: HTTP 401
+[2026-11-05 13:03:12] Error sending status: HTTP 401
+[2026-11-05 13:03:13] Error sending status: HTTP 401
+[2026-11-05 13:03:14] Error sending status: HTTP 401
+[2026-11-05 13:03:14] Error sending status: HTTP 401
+[2026-11-05 13:03:15] Error sending status: HTTP 401
+[2026-11-05 13:03:15] Error sending status: HTTP 401
+[2026-11-05 13:03:16] Error sending status: HTTP 401
+[2026-11-05 13:03:16] Error sending status: HTTP 401
+[2026-11-05 13:03:17] Error sending status: HTTP 401
+[2026-11-05 13:03:17] Error sending status: HTTP 401
+[2026-11-05 13:03:18] Error sending status: HTTP 401
+[2026-11-05 13:03:19] Error sending status: HTTP 401
+[2026-11-05 13:03:19] Error sending status: HTTP 401
+[2026-11-05 13:03:20] Error sending status: HTTP 401
+[2026-11-05 13:03:20] Error sending status: HTTP 401
+[2026-11-05 13:03:21] Error sending status: HTTP 401
+[2026-11-05 13:03:22] Error sending status: HTTP 401
+[2026-11-05 13:03:22] Error sending status: HTTP 401
+[2026-11-05 13:03:23] Error sending status: HTTP 401
+[2026-11-05 13:03:23] Tag Change: ID '00E28011704000' -> Floor 'Unknown'
+[2026-11-05 13:03:23] Error sending status: HTTP 401
+[2026-11-05 13:03:24] Error sending status: HTTP 401
+[2026-11-05 13:03:25] Error sending status: HTTP 401
+[2026-11-05 13:03:25] Error sending status: HTTP 401
+[2026-11-05 13:03:26] Error sending status: HTTP 401
+[2026-11-05 13:03:27] Error sending status: HTTP 401
+[2026-11-05 13:03:27] Error sending status: HTTP 401
+[2026-11-05 13:03:29] Error sending status: HTTP 401
+[2026-11-05 13:03:30] Error sending status: HTTP 401
+[2026-11-05 13:03:31] Error sending status: HTTP 401
+[2026-11-05 13:03:31] Error sending status: HTTP 401
+[2026-11-05 13:03:31] Error sending status: HTTP 401
+[2026-11-05 13:03:32] Error sending status: HTTP 401
+[2026-11-05 13:03:32] Error sending status: HTTP 401
+[2026-11-05 13:03:33] Error sending status: HTTP 401
+[2026-11-05 13:03:33] Error sending status: HTTP 401
+[2026-11-05 13:03:34] Error sending status: HTTP 401
+[2026-11-05 13:03:34] Error sending status: HTTP 401
+[2026-11-05 13:03:35] Error sending status: HTTP 401
+[2026-11-05 13:03:35] Error sending status: HTTP 401
+[2026-11-05 13:03:36] Error sending status: HTTP 401
+[2026-11-05 13:03:37] Error sending status: HTTP 401
+[2026-11-05 13:03:37] Error sending status: HTTP 401
+[2026-11-05 13:03:38] Error sending status: HTTP 401
+[2026-11-05 13:03:38] Error sending status: HTTP 401
+[2026-11-05 13:03:39] Error sending status: HTTP 401
+[2026-11-05 13:03:40] Error sending status: HTTP 401
+[2026-11-05 13:03:40] Error sending status: HTTP 401
+[2026-11-05 13:03:40] Error sending status: HTTP 401
+[2026-11-05 13:03:41] Error sending status: HTTP 401
+[2026-11-05 13:03:41] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:03:42] Error sending status: HTTP 401
+[2026-11-05 13:03:42] Error sending status: HTTP 401
+[2026-11-05 13:03:42] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-11-05 13:03:43] Error sending status: HTTP 401
+[2026-11-05 13:03:43] Error sending status: HTTP 401
+[2026-11-05 13:03:44] Error sending status: HTTP 401
+[2026-11-05 13:03:44] Error sending status: HTTP 401
+[2026-11-05 13:03:45] Error sending status: HTTP 401
+[2026-11-05 13:03:45] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:03:46] Error sending status: HTTP 401
+[2026-11-05 13:03:46] Error sending status: HTTP 401
+[2026-11-05 13:03:47] Error sending status: HTTP 401
+[2026-11-05 13:03:47] Error sending status: HTTP 401
+[2026-11-05 13:03:48] Error sending status: HTTP 401
+[2026-11-05 13:03:48] Error sending status: HTTP 401
+[2026-11-05 13:03:49] Tag flapping: suppressed 72 repeated tag-change log lines in the last 61s
+[2026-11-05 13:03:49] Error sending status: HTTP 401
+[2026-11-05 13:03:50] Error sending status: HTTP 401
+[2026-11-05 13:03:50] Error sending status: HTTP 401
+[2026-11-05 13:03:51] Error sending status: HTTP 401
+[2026-11-05 13:03:51] Error sending status: HTTP 401
+[2026-11-05 13:03:52] Error sending status: HTTP 401
+[2026-11-05 13:03:52] Error sending status: HTTP 401
+[2026-11-05 13:03:53] Error sending status: HTTP 401
+[2026-11-05 13:03:53] Tag Change: ID '00E28011' -> Floor 'Unknown'
+[2026-11-05 13:03:54] Error sending status: HTTP 401
+[2026-11-05 13:03:54] Error sending status: HTTP 401
+[2026-11-05 13:03:55] Error sending status: HTTP 401
+[2026-11-05 13:03:56] Error sending status: HTTP 401
+[2026-11-05 13:03:57] Error sending status: HTTP 401
+[2026-11-05 13:03:57] Error sending status: HTTP 401
+[2026-11-05 13:03:58] Error sending status: HTTP 401
+[2026-11-05 13:03:58] Error sending status: HTTP 401
+[2026-11-05 13:03:59] Error sending status: HTTP 401
+[2026-11-05 13:03:59] Error sending status: HTTP 401
+[2026-11-05 13:04:00] Error sending status: HTTP 401
+[2026-11-05 13:04:00] Error sending status: HTTP 401
+[2026-11-05 13:04:01] Error sending status: HTTP 401
+[2026-11-05 13:04:01] Error sending status: HTTP 401
+[2026-11-05 13:04:02] Error sending status: HTTP 401
+[2026-11-05 13:04:02] Error sending status: HTTP 401
+[2026-11-05 13:04:03] Error sending status: HTTP 401
+[2026-11-05 13:04:04] Error sending status: HTTP 401
+[2026-11-05 13:04:05] Error sending status: HTTP 401
+[2026-11-05 13:04:05] Error sending status: HTTP 401
+[2026-11-05 13:04:08] Error sending status: HTTP 401
+[2026-11-05 13:04:10] Error sending status: HTTP 401
+[2026-11-05 13:04:13] Error sending status: HTTP 401
+[2026-11-05 13:04:14] Error sending status: HTTP 401
+[2026-11-05 13:04:14] Error sending status: HTTP 401
+[2026-11-05 13:04:15] Error sending status: HTTP 401
+[2026-11-05 13:04:16] Error sending status: HTTP 401
+[2026-11-05 13:04:16] Error sending status: HTTP 401
+[2026-11-05 13:04:17] Tag Change: ID '00E28011704000021CEE' -> Floor 'Unknown'
+[2026-11-05 13:04:17] Error sending status: HTTP 401
+[2026-11-05 13:04:18] Error sending status: HTTP 401
+[2026-11-05 13:04:18] Error sending status: HTTP 401
+[2026-11-05 13:04:18] Error sending status: HTTP 401
+[2026-11-05 13:04:19] Error sending status: HTTP 401
+[2026-11-05 13:04:19] Error sending status: HTTP 401
+[2026-11-05 13:04:20] Error sending status: HTTP 401
+[2026-11-05 13:04:21] Error sending status: HTTP 401
+[2026-11-05 13:04:21] Error sending status: HTTP 401
+[2026-11-05 13:04:22] Error sending status: HTTP 401
+[2026-11-05 13:04:23] Error sending status: HTTP 401
+[2026-11-05 13:04:24] Error sending status: HTTP 401
+[2026-11-05 13:04:24] Error sending status: HTTP 401
+[2026-11-05 13:04:25] Error sending status: HTTP 401
+[2026-11-05 13:04:25] Error sending status: HTTP 401
+[2026-11-05 13:04:26] Error sending status: HTTP 401
+[2026-11-05 13:04:27] Error sending status: HTTP 401
+[2026-11-05 13:04:27] Error sending status: HTTP 401
+[2026-11-05 13:04:28] Error sending status: HTTP 401
+[2026-11-05 13:04:29] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:04:29] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:04:29] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:04:30] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:04:30] Error sending status: HTTP 401
+[2026-11-05 13:04:30] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-11-05 13:04:31] Error sending status: HTTP 401
+[2026-11-05 13:04:31] Error sending status: HTTP 401
+[2026-11-05 13:04:32] Error sending status: HTTP 401
+[2026-11-05 13:04:32] Error sending status: HTTP 401
+[2026-11-05 13:04:33] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:04:35] Error sending status: HTTP 401
+[2026-11-05 13:04:36] Error sending status: HTTP 401
+[2026-11-05 13:04:38] Error sending status: HTTP 401
+[2026-11-05 13:04:39] Tag Change: ID '00E2801170' -> Floor 'Unknown'
+[2026-11-05 13:04:39] Tag Change: ID '00E28011704000021D35' -> Floor 'Unknown'
+[2026-11-05 13:04:39] Error sending status: HTTP 401
+[2026-11-05 13:04:40] Error sending status: HTTP 401
+[2026-11-05 13:04:41] Error sending status: HTTP 401
+[2026-11-05 13:04:41] Error sending status: HTTP 401
+[2026-11-05 13:04:42] Error sending status: HTTP 401
+[2026-11-05 13:04:43] Error sending status: HTTP 401
+[2026-11-05 13:04:45] Error sending status: HTTP 401
+[2026-11-05 13:04:46] Error sending status: HTTP 401
+[2026-11-05 13:04:47] Error sending status: HTTP 401
+[2026-11-05 13:04:48] Error sending status: HTTP 401
+[2026-11-05 13:04:48] Tag Change: ID '00E2801170400002' -> Floor 'Unknown'
+[2026-11-05 13:04:48] Error sending status: HTTP 401
+[2026-11-05 13:04:50] Error sending status: HTTP 401
+[2026-11-05 13:04:51] Error sending status: HTTP 401
+[2026-11-05 13:04:52] Error sending status: HTTP 401
+[2026-11-05 13:04:52] Error sending status: HTTP 401
+[2026-11-05 13:04:54] Error sending status: HTTP 401
+[2026-11-05 13:04:54] Error sending status: HTTP 401
+[2026-11-05 13:04:55] Error sending status: HTTP 401
+[2026-11-05 13:04:56] Error sending status: HTTP 401
+[2026-11-05 13:04:57] Error sending status: HTTP 401
+[2026-11-05 13:04:57] Error sending status: HTTP 401
+[2026-11-05 13:04:58] Error sending status: HTTP 401
+[2026-11-05 13:05:00] Error sending status: HTTP 401
+[2026-11-05 13:05:00] Error sending status: HTTP 401
+[2026-11-05 13:05:01] Error sending status: HTTP 401
+[2026-11-05 13:05:02] Error sending status: HTTP 401
+[2026-11-05 13:05:03] Error sending status: HTTP 401
+[2026-11-05 13:05:03] Error sending status: HTTP 401
+[2026-11-05 13:05:04] Error sending status: HTTP 401
+[2026-11-05 13:05:04] Error sending status: HTTP 401
+[2026-11-05 13:05:05] Error sending status: HTTP 401
+[2026-11-05 13:05:06] Error sending status: HTTP 401
+[2026-11-05 13:05:06] Error sending status: HTTP 401
+[2026-11-05 13:05:07] Error sending status: HTTP 401
+[2026-11-05 13:05:07] Error sending status: HTTP 401
+[2026-11-05 13:05:08] Error sending status: HTTP 401
+[2026-11-05 13:05:08] Error sending status: HTTP 401
+[2026-11-05 13:05:11] Error sending status: HTTP 401
+[2026-11-05 13:05:12] Error sending status: HTTP 401
+[2026-11-05 13:05:13] Error sending status: HTTP 401
+[2026-11-05 13:05:14] Error sending status: HTTP 401
+[2026-11-05 13:05:15] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:05:15] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:05:15] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:05:15] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:05:16] Error sending status: HTTP 401
+[2026-11-05 13:05:16] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-11-05 13:05:17] Error sending status: HTTP 401
+[2026-11-05 13:05:19] Error sending status: HTTP 401
+[2026-11-05 13:05:19] Error sending status: HTTP 401
+[2026-11-05 13:05:20] Error sending status: HTTP 401
+[2026-11-05 13:05:20] Error sending status: HTTP 401
+[2026-11-05 13:05:21] Error sending status: HTTP 401
+[2026-11-05 13:05:22] Error sending status: HTTP 401
+[2026-11-05 13:05:22] Error sending status: HTTP 401
+[2026-11-05 13:05:23] Error sending status: HTTP 401
+[2026-11-05 13:05:24] Error sending status: HTTP 401
+[2026-11-05 13:05:25] Error sending status: HTTP 401
+[2026-11-05 13:05:26] Error sending status: HTTP 401
+[2026-11-05 13:05:28] Error sending status: HTTP 401
+[2026-11-05 13:05:34] Error sending status: HTTP 401
+[2026-11-05 13:05:34] Error sending status: HTTP 401
+[2026-11-05 13:05:35] Error sending status: HTTP 401
+[2026-11-05 13:05:36] Error sending status: HTTP 401
+[2026-11-05 13:05:37] Error sending status: HTTP 401
+[2026-11-05 13:05:38] Error sending status: HTTP 401
+[2026-11-05 13:05:39] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:05:41] Error sending status: HTTP 401
+[2026-11-05 13:05:41] Error sending status: HTTP 401
+[2026-11-05 13:05:42] Error sending status: HTTP 401
+[2026-11-05 13:05:43] Error sending status: HTTP 401
+[2026-11-05 13:05:44] Error sending status: HTTP 401
+[2026-11-05 13:05:44] Error sending status: HTTP 401
+[2026-11-05 13:05:45] Error sending status: HTTP 401
+[2026-11-05 13:05:45] Error sending status: HTTP 401
+[2026-11-05 13:05:46] Error sending status: HTTP 401
+[2026-11-05 13:05:47] Error sending status: HTTP 401
+[2026-11-05 13:05:47] Error sending status: HTTP 401
+[2026-11-05 13:05:48] Error sending status: HTTP 401
+[2026-11-05 13:05:49] Error sending status: HTTP 401
+[2026-11-05 13:05:50] Error sending status: HTTP 401
+[2026-11-05 13:05:51] Error sending status: HTTP 401
+[2026-11-05 13:05:52] Error sending status: HTTP 401
+[2026-11-05 13:06:02] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:06:02] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:06:02] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:06:02] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '6'
+[2026-11-05 13:06:03] Error sending status: HTTP 401
+[2026-11-05 13:06:19] Error sending status: HTTP 401
+[2026-11-05 13:06:19] Error sending status: HTTP 401
+[2026-11-05 13:06:23] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:06:23] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:06:23] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:07:05] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:07:05] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:07:05] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:07:08] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '8'
+[2026-11-05 13:07:08] Error sending status: HTTP 401
+[2026-11-05 13:07:09] Error sending status: HTTP 401
+[2026-11-05 13:07:09] Error sending status: HTTP 401
+[2026-11-05 13:07:11] Error sending status: HTTP 401
+[2026-11-05 13:07:11] Error sending status: HTTP 401
+[2026-11-05 13:08:27] Error sending status: HTTP 401
+[2026-11-05 13:08:28] Error sending status: HTTP 401
+[2026-11-05 13:08:45] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-11-05 13:09:13] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:09:15] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '8'
+[2026-11-05 13:09:15] Error sending status: HTTP 401
+[2026-11-05 13:09:16] Error sending status: HTTP 401
+[2026-11-05 13:09:23] Error sending status: HTTP 401
+[2026-11-05 13:09:24] Error sending status: HTTP 401
+[2026-11-05 13:09:26] Error sending status: HTTP 401
+[2026-11-05 13:09:31] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:09:31] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:09:31] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
+[2026-11-05 13:09:34] Tag Change: ID '00E28011704000021CEE45F3' -> Floor '3'
+[2026-11-05 13:09:34] Error sending status: HTTP 401
+[2026-11-05 13:09:36] Tag Change: ID '00E2004707DBD060270EA001' -> Floor 'Unknown'
+[2026-11-05 13:09:38] Tag Change: ID '00E28011704000021D35AE4D' -> Floor '8'
+[2026-11-05 13:09:38] Error sending status: HTTP 401
+[2026-11-05 13:09:39] Error sending status: HTTP 401
+[2026-11-05 13:09:40] Error sending status: HTTP 401
+[2026-11-05 13:09:40] Error sending status: HTTP 401
+[2026-11-05 13:09:41] Error sending status: HTTP 401
+[2026-11-05 13:09:42] Error sending status: HTTP 401
+[2026-11-05 13:09:43] Error sending status: HTTP 401
+[2026-11-05 13:09:43] Tag Change: ID '00E28011704000021C' -> Floor 'Unknown'
+[2026-11-05 13:09:44] Error sending status: HTTP 401
+[2026-11-05 13:09:45] Error sending status: HTTP 401
+[2026-11-05 13:09:46] Error sending status: HTTP 401
+[2026-11-05 13:09:46] Error sending status: HTTP 401
+[2026-11-05 13:09:47] Error sending status: HTTP 401
+[2026-11-05 13:09:48] Error sending status: HTTP 401
+[2026-11-05 13:09:49] Error sending status: HTTP 401
+[2026-11-05 13:09:51] Error sending status: HTTP 401
+[2026-11-05 13:09:52] Error sending status: HTTP 401
+[2026-11-05 13:09:53] Error sending status: HTTP 401
+[2026-11-05 13:09:54] Error sending status: HTTP 401
+[2026-11-05 13:09:55] Error sending status: HTTP 401
+[2026-11-05 13:09:56] Error sending status: HTTP 401
+[2026-11-05 13:09:56] Error sending status: HTTP 401
+[2026-11-05 13:09:58] Error sending status: HTTP 401
+[2026-11-05 13:09:59] Error sending status: HTTP 401
+[2026-11-05 13:10:01] Error sending status: HTTP 401
+[2026-11-05 13:10:01] Error sending status: HTTP 401
+[2026-11-05 13:10:03] Error sending status: HTTP 401
+[2026-11-05 13:10:04] Error sending status: HTTP 401
+[2026-11-05 13:10:04] Error sending status: HTTP 401
+[2026-11-05 13:10:05] Error sending status: HTTP 401
+[2026-11-05 13:10:07] Error sending status: HTTP 401
+[2026-11-05 13:10:07] Error sending status: HTTP 401
+[2026-11-05 13:10:24] Error sending status: HTTP 401
+[2026-11-05 13:10:24] Tag Change: ID '00E28011704000021D35AE' -> Floor 'Unknown'
+[2026-11-05 13:10:25] Error sending status: HTTP 401
+[2026-11-05 13:10:25] Error sending status: HTTP 401
+[2026-11-05 13:10:26] Error sending status: HTTP 401
+[2026-11-05 13:10:33] --- Smart Elevator Tracker (Secured) --- ID: C
+[2026-11-05 13:10:33] Status URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/elevators/C.json
+[2026-11-05 13:10:33] Logs URL: https://ramada-elev-default-rtdb.europe-west1.firebasedatabase.app/logs/C.json
